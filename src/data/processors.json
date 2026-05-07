@@ -1,0 +1,15 @@
+{
+  "id": "intel-pentium-ii",
+  "title": "Intel Pentium II",
+  "year": "1997",
+  "architecture": "32-bit (x86)",
+  "clockSpeed": "233 MHz - 450 MHz",
+  "transistors": "7.5 Million",
+  "formFactor": "Slot 1 Cartridge",
+  "colors": {
+    "from": "from-cyan-400",
+    "via": "via-blue-600",
+    "to": "to-slate-900"
+  },
+  "description": "Famous for moving away from the traditional socket design to the massive 'Slot 1' SECC cartridge. It brought high-performance multimedia capabilities to consumer desktops."
+}
