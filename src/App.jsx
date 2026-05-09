@@ -20,7 +20,7 @@ function App() {
                 (
                     <HomePage setSearchParams={setSearchParams} />
                 ) : (
-                    <ProcessorView/>
+                    <ProcessorView activeProcessor={activeProcessor} processors={processors} />
                 )
             }
         </div>
