@@ -5,13 +5,151 @@
     "year": "1997",
     "architecture": "32-bit (x86)",
     "clockSpeed": "233 MHz - 450 MHz",
-    "transistors": "7.5 Million",
     "formFactor": "Slot 1 Cartridge",
+    "transistors": "7.5 Million",
     "colors": {
       "from": "from-cyan-400",
       "via": "via-blue-600",
       "to": "to-slate-900"
     },
-    "description": "Famous for moving away from the traditional socket design to the massive 'Slot 1' SECC cartridge. It brought high-performance multimedia capabilities to consumer desktops."
+    "description": "Famous for moving away from the traditional socket design to the massive 'Slot 1' SECC cartridge. It brought high-performance multimedia capabilities to consumer desktops.",
+    "previousModel": "Pentium I",
+    "performanceMultiplier": 1.5
+  },
+  {
+    "id": "intel-pentium-iii",
+    "title": "Intel Pentium III",
+    "year": "1999",
+    "architecture": "32-bit (x86)",
+    "clockSpeed": "450 MHz - 1.4 GHz",
+    "formFactor": "Slot 1 / Socket 370",
+    "transistors": "9.5 Million",
+    "colors": {
+      "from": "from-emerald-400",
+      "via": "via-teal-500",
+      "to": "to-zinc-900"
+    },
+    "description": "Introduced the controversial 'processor serial number' and the highly impactful SSE instruction set, drastically improving floating-point and multimedia performance.",
+    "previousModel": "Pentium II",
+    "performanceMultiplier": 1.6
+  },
+  {
+    "id": "intel-pentium-4-180nm",
+    "title": "Intel Pentium 4 (180nm)",
+    "year": "2000",
+    "architecture": "32-bit (x86)",
+    "clockSpeed": "1.3 GHz - 2.0 GHz",
+    "formFactor": "Socket 423",
+    "transistors": "42 Million",
+    "colors": {
+      "from": "from-orange-400",
+      "via": "via-red-600",
+      "to": "to-stone-900"
+    },
+    "description": "The dawn of the NetBurst architecture. Intel sacrificed raw efficiency to chase massive clock speeds, famously pushing past the 1 GHz barrier with incredibly long data pipelines.",
+    "previousModel": "Pentium III",
+    "performanceMultiplier": 1.4
+  },
+  {
+    "id": "intel-pentium-4-130nm",
+    "title": "Intel Pentium 4 (130nm)",
+    "year": "2002",
+    "architecture": "32-bit (x86)",
+    "clockSpeed": "1.6 GHz - 3.4 GHz",
+    "formFactor": "Socket 478",
+    "transistors": "55 Million",
+    "colors": {
+      "from": "from-amber-300",
+      "via": "via-orange-500",
+      "to": "to-neutral-900"
+    },
+    "description": "Codenamed 'Northwood', this refinement added more cache and introduced Hyper-Threading to desktop PCs, allowing the OS to treat one physical core as two logical brains.",
+    "previousModel": "Pentium 4 (180nm)",
+    "performanceMultiplier": 1.5
+  },
+  {
+    "id": "intel-pentium-e2200",
+    "title": "Pentium Dual-Core E2200",
+    "year": "2007",
+    "architecture": "64-bit (x86-64)",
+    "clockSpeed": "2.2 GHz",
+    "formFactor": "LGA 775",
+    "transistors": "105 Million",
+    "colors": {
+      "from": "from-violet-400",
+      "via": "via-purple-600",
+      "to": "to-slate-900"
+    },
+    "description": "Intel dropped the NetBurst heating problems and pivoted to the highly efficient 'Core' microarchitecture. This budget chip offered true dual-core performance to the masses.",
+    "previousModel": "Pentium 4",
+    "performanceMultiplier": 1.8
+  },
+  {
+    "id": "intel-core-2-duo-e7500",
+    "title": "Intel Core 2 Duo E7500",
+    "year": "2009",
+    "architecture": "64-bit (x86-64)",
+    "clockSpeed": "2.93 GHz",
+    "formFactor": "LGA 775",
+    "transistors": "228 Million",
+    "colors": {
+      "from": "from-blue-400",
+      "via": "via-indigo-600",
+      "to": "to-zinc-900"
+    },
+    "description": "Built on the 45nm 'Wolfdale' core, this processor ran incredibly cool while offering massive L2 cache, making it a legendary overclocker and gaming CPU of its era.",
+    "previousModel": "Pentium E2200",
+    "performanceMultiplier": 1.6
+  },
+  {
+    "id": "intel-i3-2nd-gen",
+    "title": "Intel Core i3-2100",
+    "year": "2011",
+    "architecture": "64-bit (x86-64)",
+    "clockSpeed": "3.1 GHz",
+    "formFactor": "LGA 1155",
+    "transistors": "504 Million",
+    "colors": {
+      "from": "from-sky-400",
+      "via": "via-blue-500",
+      "to": "to-slate-800"
+    },
+    "description": "The 'Sandy Bridge' architecture was a massive leap. It fully integrated the graphics processor (GPU) and memory controller directly onto the same silicon die as the CPU.",
+    "previousModel": "Core 2 Duo",
+    "performanceMultiplier": 1.7
+  },
+  {
+    "id": "intel-i3-3rd-gen",
+    "title": "Intel Core i3-3220",
+    "year": "2012",
+    "architecture": "64-bit (x86-64)",
+    "clockSpeed": "3.3 GHz",
+    "formFactor": "LGA 1155",
+    "transistors": "1.4 Billion",
+    "colors": {
+      "from": "from-fuchsia-400",
+      "via": "via-pink-600",
+      "to": "to-gray-900"
+    },
+    "description": "Codenamed 'Ivy Bridge', this introduced 3D Tri-Gate transistors at a microscopic 22nm scale, drastically reducing power leakage and packing over a billion transistors.",
+    "previousModel": "Core i3 (2nd Gen)",
+    "performanceMultiplier": 1.2
+  },
+  {
+    "id": "intel-i5-6500",
+    "title": "Intel Core i5-6500",
+    "year": "2015",
+    "architecture": "64-bit (x86-64)",
+    "clockSpeed": "3.2 GHz (3.6 GHz Turbo)",
+    "formFactor": "LGA 1151",
+    "transistors": "1.75 Billion",
+    "colors": {
+      "from": "from-teal-300",
+      "via": "via-cyan-600",
+      "to": "to-slate-900"
+    },
+    "description": "The 'Skylake' architecture brought native DDR4 memory support to the mainstream. As a true quad-core, it handled heavy multitasking and demanding AAA games with ease.",
+    "previousModel": "Core i3 (3rd Gen)",
+    "performanceMultiplier": 2.2
   }
 ]
