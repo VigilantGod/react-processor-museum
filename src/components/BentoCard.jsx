@@ -17,11 +17,13 @@ const BentoCard = ({className, title, content}) => {
 
     }
     return (
-        <div className={`bg-zinc-100 rounded-3xl p-6 hover:scale-110 duration-300 shadow-2xl ${className}`}>
+        <div className={`bg-zinc-100 rounded-2xl p-2.5 hover:scale-110 duration-300 shadow-xl ${className}`}>
             <motion.div
-                variants={cardAnimation}>
-                <h2 className="pb-6">{title}</h2>
-                <div className="text-2xl pb-4">
+                variants={cardAnimation}
+                className="h-full w-full flex flex-col justify-center">
+
+                <h1 className="text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1">{title}</h1>
+                <div className="grow flex flex-col justify-center text-3xl font-light text-zinc-900">
                     {content}
                 </div>
             </motion.div>

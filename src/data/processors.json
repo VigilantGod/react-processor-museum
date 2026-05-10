@@ -4,6 +4,7 @@
     "title": "Intel Pentium II",
     "year": "1997",
     "architecture": "32-bit (x86)",
+    "clockSpeed": "233 MHz - 450 MHz",
     "transistors": "7.5 Million",
     "formFactor": "Slot 1 Cartridge",
     "colors": {
@@ -37,6 +38,7 @@
     "title": "Intel Pentium III",
     "year": "1999",
     "architecture": "32-bit (x86)",
+    "clockSpeed": "450 MHz - 1.4 GHz",
     "transistors": "9.5 Million",
     "formFactor": "Slot 1 / Socket 370",
     "colors": {
@@ -290,7 +292,7 @@
     "title": "Intel Core (Yonah/Conroe) — Core Duo / Core 2 Duo / Core 2 Quad",
     "year": "2006",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "1.06 GHz – 3.33 GHz (dual-core); up to 3.0 GHz (quad-core)",
+    "clockSpeed": "1.06 GHz – 3.33 GHz",
     "transistors": "151 Million (Yonah) / 291 Million (Conroe) / 582 Million (Kentsfield quad)",
     "formFactor": "Socket M / Socket P (mobile); LGA 775 (desktop)",
     "colors": {
@@ -352,6 +354,7 @@
     "title": "Intel Core 2 Duo \"Wolfdale\" (45nm)",
     "year": "2007",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.33 GHz – 3.50 GHz",
     "transistors": "410 Million",
     "formFactor": "LGA 775 (desktop) / Socket P (mobile)",
     "colors": {
@@ -397,6 +400,7 @@
     "title": "Intel Nehalem — 1st Gen Core (i3 / i5 / i7)",
     "year": "2008",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.66 GHz – 3.60 GHz",
     "transistors": "731 Million",
     "formFactor": "LGA 1366 / LGA 1156",
     "colors": {
@@ -438,6 +442,7 @@
     "title": "Intel Bonnell — Atom (45nm)",
     "year": "2008",
     "architecture": "32-bit (x86) / 64-bit on later models",
+    "clockSpeed": "800 MHz – 2.13 GHz",
     "transistors": "47 Million",
     "formFactor": "BGA 437 / BGA 441 (Soldered)",
     "colors": {
@@ -475,6 +480,7 @@
     "title": "Intel Westmere — 1st Gen Core (32nm)",
     "year": "2010",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.40 GHz – 3.60 GHz",
     "transistors": "1.17 Billion",
     "formFactor": "LGA 1156 / LGA 1366",
     "colors": {
@@ -516,6 +522,7 @@
     "title": "Intel Sandy Bridge — 2nd Gen Core (i3 / i5 / i7)",
     "year": "2011",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.5 GHz – 3.9 GHz",
     "transistors": "1.16 Billion",
     "formFactor": "LGA 1155",
     "colors": {
@@ -557,6 +564,7 @@
     "title": "Intel Ivy Bridge — 3rd Gen Core (i3 / i5 / i7)",
     "year": "2012",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.5 GHz – 3.9 GHz",
     "transistors": "1.4 Billion",
     "formFactor": "LGA 1155",
     "colors": {
@@ -590,6 +598,7 @@
     "title": "Intel Haswell — 4th Gen Core (i3 / i5 / i7)",
     "year": "2013",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.4 GHz – 4.0 GHz",
     "transistors": "1.4 Billion",
     "formFactor": "LGA 1150",
     "colors": {
@@ -627,6 +636,7 @@
     "title": "Intel Silvermont — Atom / Celeron / Pentium",
     "year": "2013",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "1.33 GHz – 2.41 GHz",
     "transistors": "1.2 Billion",
     "formFactor": "BGA 1170 / BGA 1380 (Soldered)",
     "colors": {
@@ -660,6 +670,7 @@
     "title": "Intel Broadwell — 5th Gen Core (i3 / i5 / i7)",
     "year": "2015",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.2 GHz – 3.8 GHz",
     "transistors": "1.9 Billion",
     "formFactor": "LGA 1150",
     "colors": {
@@ -693,6 +704,7 @@
     "title": "Intel Skylake — 6th Gen Core (i3 / i5 / i7)",
     "year": "2015",
     "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.3 GHz – 4.2 GHz",
     "transistors": "1.75 Billion",
     "formFactor": "LGA 1151",
     "colors": {
@@ -721,4 +733,5 @@
       }
     ]
   }
+
 ]
