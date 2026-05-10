@@ -6,7 +6,9 @@ import {useEffect, useRef} from "react";
 
 const HomePage = ({setSearchParams}) => {
 
-    const {scrollY} = useScroll();
+    const scrollContainer = useRef(null);
+
+    const {scrollY} = useScroll({container: scrollContainer});
 
     const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
     const heroScale = useTransform(scrollY, [0, 300], [1, 0.85]);
@@ -29,7 +31,10 @@ const HomePage = ({setSearchParams}) => {
         }
     }, [isHeroInView]);
     return (
-        <div className="w-full relative h-screen overflow-scroll snap-y snap-mandatory">
+        <AnimatePresence mode="wait">
+        <div
+            ref={scrollContainer}
+            className="w-full relative h-screen overflow-scroll snap-y snap-mandatory">
             <div>
                 <section className="h-screen snap-center">
                     <section>
@@ -76,7 +81,7 @@ const HomePage = ({setSearchParams}) => {
                                         }}
                                         key={processor.id}
                                         className="p-4 bg-zinc-100 shadow-2xl  m-3 rounded-lg hover:scale-110 duration-300">
-                                        <h3 className="text-2xl">{processor.title}</h3>
+                                        <h3 className="text-xl">{processor.title}</h3>
                                         <p>{processor.year}</p>
                                     </motion.div>
                             ))
@@ -87,6 +92,7 @@ const HomePage = ({setSearchParams}) => {
             </div>
 
         </div>
+        </AnimatePresence>
     );
 }
 export default HomePage;
