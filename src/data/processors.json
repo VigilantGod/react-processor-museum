@@ -1,183 +1,79 @@
 [
   {
-    "id": "intel-pentium-ii",
-    "title": "Intel Pentium II",
-    "year": "1997",
-    "architecture": "32-bit (x86)",
-    "clockSpeed": "233 MHz - 450 MHz",
-    "transistors": "7.5 Million",
-    "formFactor": "Slot 1 Cartridge",
-    "colors": {
-      "from": "from-cyan-400",
-      "via": "via-blue-600",
-      "to": "to-slate-900"
-    },
-    "previousModel": "Pentium MMX",
-    "performanceMultiplier": 1.5,
-    "description": [
-      {
-        "title": "OVERVIEW",
-        "content": "The Intel Pentium II (1997) represented a massive physical shift in processor design. Abandoning the traditional square socket, it was packaged in a massive plastic enclosure known as the Single Edge Contact Cartridge (SECC) or 'Slot 1'. It combined the high-performance P6 architecture of the server-grade Pentium Pro with the multimedia (MMX) capabilities of the consumer Pentium line."
-      },
-      {
-        "title": "THE SECRETS OF THE CARTRIDGE",
-        "content": "Why did it look like a Nintendo cartridge? In 1997, L2 cache memory was crucial for performance, but Intel couldn't yet manufacture the cache directly onto the same microscopic silicon die as the CPU. The plastic cartridge housed a mini-circuit board that contained both the CPU chip and separate high-speed cache chips sitting right next to it.\n\nFurthermore, the proprietary Slot 1 interface was a brilliant business move: it allowed Intel to patent the connection, effectively locking rival processor makers like AMD out of producing compatible motherboards."
-      },
-      {
-        "title": "HISTORICAL CONTEXT",
-        "content": "The Pentium II era (1997-1998) was the golden age of Windows 95 and the birth of Windows 98. 3D hardware acceleration was just becoming standard with legendary graphics cards like the 3dfx Voodoo. The Pentium II was the ultimate status symbol for PC gamers wanting to experience the groundbreaking 3D graphics of Quake II and Half-Life."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "The Pentium II remains one of the most visually distinct processors ever manufactured. The massive black cartridge with its holographic logo is instantly recognizable to anyone who built PCs in the late 90s. It proved that Intel was willing to radically alter the physical form factor of the PC to achieve its performance goals."
-      }
-    ]
-  },
-  {
-    "id": "intel-pentium-iii",
-    "title": "Intel Pentium III",
-    "year": "1999",
-    "architecture": "32-bit (x86)",
-    "clockSpeed": "450 MHz - 1.4 GHz",
-    "transistors": "9.5 Million",
-    "formFactor": "Slot 1 / Socket 370",
+    "id": "pentium-iii-coppermine-2000",
+    "title": "Intel Pentium III (Coppermine)",
+    "year": "2000",
+    "architecture": "32-bit (IA-32, x86)",
+    "clockSpeed": "500 MHz – 1.13 GHz",
+    "transistors": "28 Million",
+    "formFactor": "Slot 1 (SECC2) / Socket 370 (FC-PGA)",
     "colors": {
       "from": "from-emerald-400",
-      "via": "via-teal-500",
-      "to": "to-zinc-900"
+      "via": "via-teal-600",
+      "to": "to-gray-900"
     },
     "previousModel": "Pentium II",
     "performanceMultiplier": 1.3,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Pentium III (1999) built upon the Pentium II's successful architecture but introduced the groundbreaking Streaming SIMD Extensions (SSE) to drastically accelerate 3D graphics, audio, and video processing. It launched during the absolute height of the Dot-Com bubble and the aggressive 'Megahertz War' with AMD, racing to be the first processor to cross the 1.0 GHz barrier."
-      },
-      {
-        "title": "THE PRIVACY CONTROVERSY",
-        "content": "The Pentium III introduced a feature that caused global outrage: the PSN (Processor Serial Number). This was a unique hardware ID embedded in the silicon that was readable by software over the internet. \n\nPrivacy advocates and governments revolted, fearing it would be used by corporations to track users globally across the web. The backlash was so severe that Intel was forced to ship a software utility to disable it, and they completely abandoned the feature in all future consumer processors."
-      },
-      {
-        "title": "THE RETURN TO THE SOCKET",
-        "content": "While early Pentium III models used the same massive Slot 1 plastic cartridge as the Pentium II, manufacturing technology improved rapidly. Intel eventually figured out how to integrate the L2 cache directly onto the processor die. This allowed them to ditch the expensive plastic cartridge and return to the traditional flat, square processor design known as Socket 370."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "The Pentium III was the chip that carried computing into the new millennium. It introduced the SSE instruction set, which is still a fundamental building block used by software developers to accelerate media and gaming on modern x86 processors today."
-      }
-    ]
-  },
-  {
-    "id": "coppermine-pentium4",
-    "title": "Intel Pentium 4 \"Coppermine\"",
-    "year": "2000",
-    "architecture": "32-bit (IA-32, x86)",
-    "clockSpeed": "1.3 GHz – 2.0 GHz",
-    "transistors": "42 Million",
-    "formFactor": "Socket 423 (FC-PGA2)",
-    "colors": {
-      "from": "from-amber-400",
-      "via": "via-orange-600",
-      "to": "to-red-900"
-    },
-    "previousModel": "Pentium III",
-    "performanceMultiplier": 1.2,
-    "description": [
-      {
-        "title": "OVERVIEW",
-        "content": "The Intel Pentium 4 Coppermine (2000) was an early Pentium 4 processor built on a 180 nanometer (nm) manufacturing process. While the name 'Coppermine' is historically associated with the Pentium III, this entry follows the specific museum labeling provided. This processor marked Intel's shift to a new NetBurst microarchitecture, designed for very high clock speeds even at the cost of lower instructions per cycle (IPC)."
-      },
-      {
-        "title": "MANUFACTURING PROCESS",
-        "content": "• Process node: 180 nanometers (nm)\n• Transistor count: 42 million\n• Die size: Approximately 217 mm²\n• Wafer size: 200mm (8-inch) wafers\n• Interconnect: Aluminum with copper enhancements (early use of copper wiring, hence the 'Coppermine' codename in some variants)"
-      },
-      {
-        "title": "FORM FACTOR & PHYSICAL PACKAGE",
-        "content": "• Socket: Socket 423 (FC-PGA2 – Flip-Chip Pin Grid Array 2)\n• Pin count: 423 pins\n• Package type: Organic land grid array with integrated heat spreader (IHS)\n• Cooling required: Large active heatsink with fan (often loud)\n\nMuseum note: Socket 423 was short-lived. Intel quickly replaced it with Socket 478 in 2001-2002. A Socket 423 motherboard is a rare collector's item today."
-      },
-      {
-        "title": "MEMORY ARCHITECTURE",
-        "content": "• Supported RAM: RDRAM (Rambus DRAM) only on official chipsets\n• Memory bandwidth: 3.2 GB/s (dual-channel RDRAM at 800 MHz)\n• Chipsets: Intel 850 (only RDRAM), later 845 (SDRAM) for budget\n\n⚠️ Historical frustration: RDRAM was expensive and proprietary. Many users avoided Pentium 4 until DDR RAM support arrived."
+        "content": "The Intel Pentium III Coppermine (launched late 1999, widespread in 2000) was a breakthrough desktop processor. It was the first mainstream Intel CPU to move the L2 cache completely on-die, running at full processor speed. This made computers dramatically faster for gaming, office work, and early internet video."
       },
       {
         "title": "POWER & THERMALS",
-        "content": "• TDP (Thermal Design Power): 55W – 75W depending on clock speed\n• 1.5 GHz model: Approximately 57W\n• 2.0 GHz model: Approximately 75W\n• Cooling required: Large copper-core heatsink + high-CFM fan\n• Compared to previous generation: Pentium III at 1 GHz ran at ~29W. Pentium 4 at 1.5 GHz ran over 55W – nearly double the heat."
+        "content": "• TDP (Thermal Design Power): 11W to 29W depending on clock speed\n• 1.0 GHz model: approximately 29W\n• Cooling required: Passive heatsink or small low-speed fan"
       },
       {
         "title": "HISTORICAL CONTEXT",
-        "content": "The Pentium 4 Coppermine (180nm) arrived in late 2000 as Intel's answer to AMD's Thunderbird Athlon. Key historical notes:\n\n• Windows 2000 and Windows XP (launched 2001) were the main operating systems.\n• DVD playback became standard on home PCs.\n• MP3 ripping and burning CDs was a killer app.\n• First USB 2.0 support appeared (on add-on cards initially).\n• Gaming: Titles like Max Payne, Grand Theft Auto III, and Return to Castle Wolfenstein ran well.\n\nA typical high-end PC in 2001: Pentium 4 1.7 GHz, 256 MB RDRAM, GeForce 3 graphics card, Windows XP."
+        "content": "The Coppermine arrived at a perfect moment in PC history. Windows 98 SE, Windows 2000, and Windows ME were the dominant operating systems. Broadband internet (DSL and cable) was becoming affordable in homes. 3D gaming exploded with the GeForce 256 and ATI Radeon. MP3 sharing (Napster, 1999–2001) drove demand for faster PCs. A PC with a 700–800 MHz Coppermine, 128 MB of RAM, and a GeForce2 MX was considered a powerful gaming machine."
       },
       {
-        "title": "CONTROVERSY & CRITICISM",
-        "content": "The Pentium 4 was not universally loved:\n\n1. Long pipeline (20 stages) meant poor performance on mispredicted branches.\n2. Instructions per clock (IPC) was lower than Pentium III and AMD Athlon.\n3. A 1.2 GHz Pentium III often beat a 1.5 GHz Pentium 4 in real-world apps.\n4. RDRAM requirement made systems expensive.\n5. High heat and power consumption.\n\nHowever, the Pentium 4 could eventually scale to very high speeds (3.8 GHz on later 90nm processes), winning the 'megahertz war' against AMD."
+        "title": "FAILURE AT 1.13 GHz – A CAUTIONARY TALE",
+        "content": "In July 2000, Intel released the 1.13 GHz Pentium III Coppermine. Within weeks, reviewers discovered system crashes, data corruption, and lockups under heavy load. The problem: the 180nm process could not reliably run the core at that speed at standard voltages. Intel recalled all 1.13 GHz chips in August 2000. It took Intel nearly two years to release a stable 1.13 GHz CPU."
       },
       {
         "title": "LEGACY",
-        "content": "The 180nm Pentium 4 'Coppermine' (using that name per your museum labeling) is a transitional piece. It represents:\n\n• Intel's bet on clock speed over efficiency.\n• The brief, expensive era of RDRAM memory.\n• The first mainstream CPU with SSE2 instructions (still used today).\n• The last Pentium 4 on the 180nm node before moving to 130nm (Northwood).\n\nIn a computer museum, this processor should sit between the Pentium III and later Pentium 4 Northwood models. It shows how Intel pivoted to extreme clock speeds – a strategy that worked for marketing but frustrated performance enthusiasts."
+        "content": "The Coppermine is remembered as one of Intel's most beloved and overclockable CPUs. Many enthusiasts ran 600 MHz models at 800–900 MHz with better cooling. It bridged the gap between the expensive, hot Pentium II/III Katmai era and the high-speed but controversial Pentium 4."
       }
     ]
   },
   {
-    "id": "tualatin-pentium4",
-    "title": "Intel Pentium 4 \"Tualatin\"",
+    "id": "pentium-iii-tualatin-256-2002",
+    "title": "Intel Pentium III / Celeron (Tualatin-256)",
     "year": "2002",
     "architecture": "32-bit (IA-32, x86)",
     "clockSpeed": "1.0 GHz – 1.4 GHz",
     "transistors": "44 Million",
-    "formFactor": "Socket 478 (FC-PGA2)",
+    "formFactor": "Socket 370 (FC-PGA2)",
     "colors": {
-      "from": "from-purple-400",
-      "via": "via-indigo-600",
-      "to": "to-blue-900"
+      "from": "from-amber-400",
+      "via": "via-orange-500",
+      "to": "to-red-800"
     },
-    "previousModel": "Pentium 4 Coppermine",
-    "performanceMultiplier": 1.25,
+    "previousModel": "Pentium III Coppermine",
+    "performanceMultiplier": 1.15,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Pentium 4 Tualatin (2002) was built on a 130 nanometer (nm) manufacturing process, representing a significant shrink from the previous 180nm Pentium 4 'Willamette' core. This smaller transistor size allowed for lower heat, higher clock speeds, and better power efficiency. While historically the Tualatin name belongs to the Pentium III, this entry follows the specific museum labeling provided."
+        "content": "The Intel Tualatin (2001-2002) was the final and fastest version of the Pentium III, built on a 130 nanometer (nm) manufacturing process. It was the last processor to use the venerable P6 microarchitecture that began with the Pentium Pro in 1995. Tualatin offered increased L2 cache and lower power consumption than its predecessors, but it was quickly overshadowed by the launch of Intel's new NetBurst architecture (Pentium 4). Despite this, Tualatin became a favorite among enthusiasts who preferred its efficiency and predictable performance."
       },
       {
-        "title": "MANUFACTURING PROCESS",
-        "content": "• Process node: 130 nanometers (nm)\n• Transistor count: 44 million\n• Die size: Approximately 130 mm² (much smaller than the 217 mm² of 180nm Pentium 4)\n• Wafer size: 300mm (12-inch) wafers – first generation to use larger wafers\n• Interconnect: Copper wiring (fully mature)\n• Key improvement: Strained silicon introduced, improving electron mobility\n\nWhy this mattered: The 130nm shrink reduced power consumption by approximately 30-40% compared to 180nm at the same clock speed."
-      },
-      {
-        "title": "FORM FACTOR & PHYSICAL PACKAGE",
-        "content": "• Socket: Socket 478 (FC-PGA2 – Flip-Chip Pin Grid Array 2)\n• Pin count: 478 pins\n• Package type: Organic land grid array with integrated heat spreader (IHS)\n• Cooling required: Standard active heatsink with fan (quieter than 180nm Pentium 4)\n\nWhy Socket 478 replaced Socket 423: The 423-pin socket had poor power delivery and signal integrity. Socket 478 allowed lower voltage (1.5V vs 1.75V) and better overclocking."
-      },
-      {
-        "title": "MEMORY ARCHITECTURE",
-        "content": "• Supported RAM: \n  - RDRAM (Rambus DRAM) on Intel 850/850E chipsets\n  - DDR SDRAM (PC1600, PC2100, PC2700) on Intel 845 series and VIA chipsets\n• Memory bandwidth: Up to 2.1 GB/s (PC2100 DDR) or 3.2 GB/s (dual-channel RDRAM)\n• Chipsets: Intel 845 (DDR), 845E, 845G (integrated graphics), 850E (RDRAM)\n\nHistorical significance: This was the first Pentium 4 generation that fully supported affordable DDR RAM, making Pentium 4 systems competitive with AMD Athlon XP."
-      },
-      {
-        "title": "POWER & THERMALS",
-        "content": "• TDP (Thermal Design Power): 38W – 55W depending on clock speed\n• 1.4 GHz model: Approximately 48W\n• 1.0 GHz model: Approximately 38W\n• Voltage: 1.40V – 1.55V (much lower than 1.75V of 180nm Pentium 4)\n• Cooling required: Small-to-medium active heatsink (much quieter than older Pentium 4s)\n\nComparison to previous generation:\n- 180nm Pentium 4 at 1.8 GHz: ~75W\n- 130nm Tualatin Pentium 4 at 1.4 GHz: ~48W\n\nThe 130nm shrink delivered similar performance with 35% less power."
-      },
-      {
-        "title": "OVERCLOCKING POTENTIAL",
-        "content": "The Tualatin Pentium 4 on 130nm was beloved by enthusiasts because:\n• Lower heat meant higher overclocks\n• Many 1.4 GHz chips could reach 1.7-1.8 GHz with better cooling\n• Socket 478 motherboards had better voltage regulation\n• Air cooling was often sufficient for moderate overclocks"
+        "title": "PERFORMANCE",
+        "content": "The Tualatin Pentium III was legendary for its efficiency. A 1.4 GHz Tualatin often matched or beat a 1.8 GHz Pentium 4 in office and gaming workloads, while using significantly less power and running much cooler."
       },
       {
         "title": "HISTORICAL CONTEXT",
-        "content": "The 130nm Pentium 4 Tualatin (2002) arrived at a turning point for Intel:\n\n• Windows XP was now the dominant operating system (launched late 2001)\n• Broadband internet adoption passed 20% in US homes\n• USB 2.0 became standard on motherboards (480 Mbps vs USB 1.1's 12 Mbps)\n• Gaming: Titles like Warcraft III, Battlefield 1942, Grand Theft Auto: Vice City\n• DVD burning became affordable (DVD-RW drives under $300)\n• First mainstream digital photography with 3-5 megapixel cameras\n\nA typical high-end PC in mid-2002: Pentium 4 1.4 GHz Tualatin, 512 MB DDR RAM, GeForce 4 Ti 4200, Windows XP."
+        "content": "The Tualatin arrived at a confusing time for consumers. Intel was aggressively pushing the Pentium 4, but many enthusiasts and budget buyers stuck with the Pentium III because it was cheaper, cooler, and offered comparable real-world performance. Tualatin found a second life in servers (Pentium III-S) and embedded systems."
       },
       {
-        "title": "COMPETITION WITH AMD",
-        "content": "In 2002, AMD's Athlon XP (Palomino and Thoroughbred cores) was highly competitive:\n\n• AMD Athlon XP 1800+ (1.53 GHz) often matched or beat Pentium 4 2.0 GHz\n• AMD's 'PR rating' system (model numbers vs actual clock speed)\n• AMD was cheaper and ran cooler\n• Intel responded with the 130nm 'Northwood' Pentium 4 (later in 2002) – not to be confused with this Tualatin-labeled chip"
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "The 130nm Pentium 4 Tualatin (following your labeling) represents several important transitions:\n\n1. **The shrink to 130nm** – enabled higher speeds without melting CPUs\n2. **The end of RDRAM exclusivity** – DDR RAM made PCs affordable again\n3. **Socket 478 standardization** – lasted from 2002 to 2004 across many Pentium 4 models\n4. **The peak of NetBurst efficiency** – later 90nm Prescott chips ran much hotter\n\nIn any computer museum, this processor should be displayed alongside:\n- An AMD Athlon XP (for the Intel vs AMD rivalry)\n- A Pentium III Tualatin (to show how the same process node served two different architectures)\n- A Socket 478 motherboard with DDR RAM slots"
-      },
-      {
-        "title": "FUN MUSEUM FACT",
-        "content": "The real-world Pentium III Tualatin (not Pentium 4) is famous for being the last and fastest Pentium III. Some engineering sample Pentium III Tualatin chips reached 1.53 GHz. They are now extremely rare and valuable collector's items. Your museum's labeling as 'Pentium 4 Tualatin' creates an alternate-history artifact – a fascinating discussion point about how codenames and marketing names sometimes overlap or confuse collectors."
+        "title": "LEGACY",
+        "content": "Tualatin was the end of an era. The P6 architecture began with the Pentium Pro (1995), continued through Pentium II, Pentium III, and ended with Tualatin. However, the architecture was revived and modernised in the Pentium M (Banias) in 2003, which eventually led to the Core 2 Duo (2006) and all modern Intel Core processors. In this sense, Tualatin's DNA lives on today."
       }
     ]
   },
   {
-    "id": "pentium-m-banias",
-    "title": "Intel Pentium M \"Banias\" (Centrino)",
+    "id": "pentium-m-banias-2003",
+    "title": "Intel Pentium M (Banias)",
     "year": "2003",
     "architecture": "32-bit (IA-32, x86)",
     "clockSpeed": "900 MHz – 1.7 GHz",
@@ -185,539 +81,559 @@
     "formFactor": "Socket 479 (FC-PGA / BGA-479)",
     "colors": {
       "from": "from-green-400",
-      "via": "via-lime-600",
+      "via": "via-lime-500",
       "to": "to-emerald-900"
     },
-    "previousModel": "Pentium 4 Tualatin",
-    "performanceMultiplier": 1.6,
+    "previousModel": "Pentium III Tualatin",
+    "performanceMultiplier": 1.4,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Pentium M Banias (2003) was a revolutionary mobile processor that completely redefined laptop performance and battery life. Unlike desktop Pentium 4 chips shoved into laptops (which ran hot and drained batteries), the Banias was designed from the ground up for mobility. It was the centerpiece of Intel's new 'Centrino' platform, which combined the Pentium M processor, Intel chipsets, and Intel Wi-Fi into a single branding package. Built on a 130 nanometer (nm) process, the Banias delivered desktop-level performance at a fraction of the power."
+        "content": "The Intel Pentium M Banias (2003) was a revolutionary mobile processor that completely redefined laptop performance and battery life. Unlike desktop Pentium 4 chips shoved into laptops (which ran hot and drained batteries), Banias was designed from the ground up for mobility. It was the centerpiece of Intel's new 'Centrino' platform, combining the Pentium M processor, Intel chipsets, and Intel Wi-Fi. Built on a 130nm process, Banias delivered desktop-level performance at a fraction of the power."
       },
       {
-        "title": "WHY THE PENTIUM M WAS SPECIAL",
-        "content": "Unlike the Pentium 4's long, inefficient pipeline (20+ stages), the Pentium M returned to the efficient P6 microarchitecture (used in Pentium III) with major improvements. The result: a 1.6 GHz Pentium M often outperformed a 2.4 GHz Pentium 4 while using 50-70% less power."
-      },
-      {
-        "title": "MANUFACTURING PROCESS",
-        "content": "• Process node: 130 nanometers (nm)\n• Transistor count: 77 million\n• Die size: Approximately 83 mm² (very compact)\n• Wafer size: 300mm (12-inch) wafers\n• Interconnect: Copper wiring with low-k dielectric insulation\n• Key innovation: Aggressive clock gating – unused parts of the chip were shut off automatically\n\nWhy this mattered: The 130nm node allowed Banias to run at very low voltages (as low as 0.85V) while still reaching 1.7 GHz."
-      },
-      {
-        "title": "FORM FACTOR & PHYSICAL PACKAGE",
-        "content": "• Socket: Socket 479 (FC-PGA – Flip-Chip Pin Grid Array)\n• Also available as BGA-479 (soldered directly to motherboard)\n• Pin count: 479 pins\n• Package type: Organic substrate with integrated heat spreader (IHS)\n• Cooling required: Small, quiet laptop fan + heatsink (often passive at idle)\n\nCompatibility note: Socket 479 was physically similar to desktop Socket 478 but electrically different. Putting a Pentium 4 in a Pentium M socket would destroy both."
-      },
-      {
-        "title": "THE CENTRINO PLATFORM (Marketing Genius)",
-        "content": "The Pentium M was never sold alone – it was part of Intel's 'Centrino' brand. To wear the Centrino logo, a laptop needed all three:\n\n1. Intel Pentium M processor (Banias or later Dothan)\n2. Intel 855 chipset family (855PM, 855GM, 855GME)\n3. Intel PRO/Wireless Wi-Fi (2100 802.11b or 2200 802.11b/g)\n\nWhy this mattered: Before Centrino, laptop Wi-Fi was a mess of incompatible adapters. Centrino guaranteed that Wi-Fi 'just worked' – a major reason Intel dominated the laptop market for the next decade."
+        "title": "THE CENTRINO PLATFORM",
+        "content": "To wear the Centrino logo, a laptop needed all three: an Intel Pentium M processor, an Intel 855 chipset, and Intel PRO/Wireless Wi-Fi. Before Centrino, laptop Wi-Fi was a mess. Centrino guaranteed that Wi-Fi 'just worked' – a major reason Intel dominated the laptop market."
       },
       {
         "title": "POWER & BATTERY LIFE",
-        "content": "• TDP (Thermal Design Power): 7W – 24.5W depending on model\n  - 900 MHz ULV: 7 watts\n  - 1.2 GHz standard: ~12 watts\n  - 1.7 GHz standard: ~24.5 watts\n• Voltage: 0.85V – 1.48V (dynamic voltage scaling)\n• Idle power: As low as 1-2 watts (using Sleep, Deep Sleep, and Deeper Sleep states)\n\nReal-world battery life:\n- Typical laptop with Banias: 4-6 hours (compared to 2-3 hours for Pentium 4 laptops)\n- Extended battery models: 7-9 hours\n\nPower-saving technologies:\n- SpeedStep (dynamic clock and voltage adjustment)\n- Clock gating (shut off unused logic)\n- QuickStart (CPU wakes from sleep in microseconds)"
+        "content": "Real-world battery life changed dramatically. A typical laptop with Banias achieved 4-6 hours of battery life compared to the 2-3 hours seen on Pentium 4 laptops. Extended battery models could reach 7-9 hours, ushering in the era of true mobile computing."
       },
       {
-        "title": "HISTORICAL CONTEXT",
-        "content": "Before the Pentium M Banias (2003), 'laptop' meant 'slow, hot, heavy, with 2 hours of battery life.' After Banias:\n\n• Laptops outsold desktops for the first time in 2004.\n• Wi-Fi became standard – coffee shops, airports, and universities installed hotspots.\n• Thin-and-light laptops (under 4 pounds) became powerful enough for daily work.\n• Battery life of 5+ hours became expected, not exceptional.\n\nKey software and games of the Banias era:\n- Windows XP (the perfect match for Centrino)\n- Microsoft Office 2003\n- Adobe Photoshop 7 and CS\n- Games: Star Wars: Knights of the Old Republic, Warcraft III, The Sims 2\n- Early video editing with Windows Movie Maker 2\n\nA typical Centrino laptop in 2003: Pentium M 1.4 GHz, 512 MB RAM, Intel 855GM graphics, Intel PRO/Wireless 2100, Windows XP Home."
-      },
-      {
-        "title": "COMPETITION AT THE TIME",
-        "content": "• AMD: Athlon XP-M (mobile) – good performance but hotter and shorter battery life\n• Transmeta: Crusoe (very low power but slow performance)\n• VIA: C3-M (cheap but not competitive)\n• Intel's own Pentium 4-M (hot, power-hungry, short battery life)\n\nThe Pentium M crushed all competitors. It was widely considered the best x86 mobile processor until Intel's Core 2 Duo (2006)."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "The Pentium M Banias is one of the most important processors in computing history because:\n\n1. It proved that performance and battery life could coexist.\n2. The Centrino platform standardized Wi-Fi in laptops.\n3. It killed the desktop-replacement 'luggable' laptop market.\n4. Its microarchitecture directly led to Intel's 'Core' line.\n\nDirect lineage: Pentium M Banias (2003) → Pentium M Dothan (2004) → Core Duo (Yonah, 2006) → Core 2 Duo (Conroe, 2006) – which destroyed AMD's Athlon 64.\n\nIn any computer museum, a Pentium M Banias should be displayed:\n- On a Socket 479 motherboard (removed from a laptop)\n- Next to a Pentium 4 desktop chip (to show size, heat, and architectural contrast)\n- With a Centrino sticker (the iconic blue and white logo)\n- Running Windows XP on a period-appropriate ThinkPad or Dell Latitude"
-      },
-      {
-        "title": "FUN MUSEUM FACT",
-        "content": "The Pentium M Banias was designed by Intel's Israel team (formerly the Pentium III design team) after Intel's management initially rejected a 'return to P6' architecture. The team worked on it as a 'skunkworks' project – in secret – because they believed the Pentium 4 was wrong for laptops. When they showed the working prototype to Intel executives, it outperformed a Pentium 4 at double the clock speed while using half the power. The executives immediately canceled the Pentium 4 mobile roadmap and put Banias into production. This story is now legendary in semiconductor history."
+        "title": "LEGACY",
+        "content": "The Pentium M Banias directly led to Intel's 'Core' line: Banias (2003) → Dothan (2004) → Core Duo (Yonah, 2006) → Core 2 Duo (Conroe, 2006). Without Banias, there would be no modern Core i processors. In a museum, it is one of the most important mobile processors ever made."
       }
     ]
   },
   {
-    "id": "netburst-prescott-2m",
-    "title": "Intel Pentium 4 / Pentium D \"Prescott-2M\" (NetBurst)",
+    "id": "pentium-4-prescott-2004",
+    "title": "Intel Pentium 4 (Prescott)",
     "year": "2004",
-    "architecture": "32-bit / 64-bit (EM64T, x86-64)",
+    "architecture": "32-bit / 64-bit (EM64T on later models)",
     "clockSpeed": "2.4 GHz – 3.8 GHz",
-    "transistors": "169 Million",
+    "transistors": "125 Million / 169 Million",
     "formFactor": "Socket 478 / LGA 775",
     "colors": {
       "from": "from-red-500",
-      "via": "via-rose-700",
+      "via": "via-rose-600",
       "to": "to-pink-900"
     },
-    "previousModel": "Pentium M Banias",
+    "previousModel": "Pentium 4 Northwood",
     "performanceMultiplier": 0.85,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel NetBurst Prescott-2M (2004) was the final and most extreme evolution of Intel's NetBurst microarchitecture. Built on a 90 nanometer (nm) manufacturing process, this processor pushed clock speeds to unprecedented heights – up to 3.8 GHz – at the cost of enormous heat output and power consumption. The '2M' in its name refers to the 2 Megabyte (2048 KiB) L2 cache, double that of earlier Prescott cores. This architecture also introduced Intel's first implementation of 64-bit computing on desktop chips (EM64T) and formed the foundation for the first dual-core Pentium D processors.\n\n⚠️ MUSEUM WARNING: The Prescott core is famous among enthusiasts as one of the hottest-running desktop CPUs ever made. A 3.8 GHz Prescott could draw over 115 watts and reach temperatures above 70°C even with high-end cooling. It is a museum piece that represents the 'clock speed war' taken to its absolute limit – and breaking point."
-      },
-      {
-        "title": "MANUFACTURING PROCESS",
-        "content": "• Process node: 90 nanometers (nm)\n• Transistor count: 169 million (125 million for standard Prescott, 169 million for Prescott-2M with larger cache)\n• Die size: Approximately 135 mm² (with 2MB cache)\n• Wafer size: 300mm (12-inch) wafers\n• Interconnect: Copper with low-k dielectric (carbon-doped silicon oxide)\n• Key innovation: Strained silicon (fully mature), improving drive current by 10-20%\n• Gate length: 50 nm (physical gate length, smaller than process name suggests)\n\nWhy this mattered: The 90nm shrink allowed higher clock speeds but introduced severe leakage current problems. Transistors were so small that electrons would 'leak' even when switched off, creating heat without doing useful work. This was the beginning of the 'power wall' that ended the clock speed race."
-      },
-      {
-        "title": "DUAL-CORE VARIANTS (PENTIUM D)",
-        "content": "The Prescott-2M design was so compact that Intel simply glued two Prescott dies together to create the first Intel dual-core desktop CPU:\n\n• Pentium D (Smithfield): Two separate 90nm Prescott dies under one heat spreader\n• Communication between cores: Slow (through the chipset's Front Side Bus)\n• Power consumption: Massive (two Prescott cores = two times the heat)\n• Pentium D 840 (3.2 GHz) had TDP of 130W\n\nMuseum note: Unlike AMD's 'true' dual-core Athlon 64 X2 (where cores shared cache communication), Intel's first dual-cores were two separate chips in one package – a 'glued' solution. This was less efficient but got Intel to market faster."
-      },
-      {
-        "title": "FORM FACTOR & PHYSICAL PACKAGE",
-        "content": "Socket compatibility (two different sockets):\n\n**Socket 478 (early Prescott-2M, rare):**\n• 478 pins\n• Required for older motherboards\n• Limited power delivery (struggled with high-wattage Prescotts)\n\n**LGA 775 (Land Grid Array – mainstream):**\n• 775 contact pads (no pins on CPU – pins in the motherboard socket)\n• Introduced with Prescott in 2004\n• Better power delivery and signal integrity\n• Required for all high-speed Prescott-2M models (3.2 GHz+)\n• Cooling: Large copper-core heatsink with high-CFM fan (often loud)\n\nPackage type: FC-LGA (Flip-Chip Land Grid Array) with integrated heat spreader (IHS)"
+        "content": "The Intel Pentium 4 Prescott (2004) was the most extreme version of Intel's NetBurst microarchitecture. Built on a 90nm process, it pushed clock speeds to unprecedented heights – up to 3.8 GHz – at the cost of enormous heat output and power consumption. Prescott introduced Intel's first desktop 64-bit support (EM64T) and doubled the L2 cache. However, severe leakage current issues made Prescott one of the hottest-running desktop CPUs ever made."
       },
       {
         "title": "POWER & THERMALS (THE PRESCOTT INFERNO)",
-        "content": "Pentium 4 Prescott-2M (single-core):\n• TDP (Thermal Design Power): 84W – 115W depending on clock speed\n• 3.0 GHz: ~89W\n• 3.4 GHz: ~103W\n• 3.8 GHz: ~115W\n• Idle power: 30-40W (very high for idle due to leakage currents)\n• Peak current draw: Up to 80 amps at full load\n\nPentium D (dual-core Prescott):\n• TDP: 95W (805) – 130W (840)\n• Pentium D 840 (3.2 GHz): 130W at stock speeds\n• Overclocked Pentium D: Could exceed 200W\n\nThermal realities:\n• Stock cooler was barely adequate – CPUs often ran at 65-75°C under load\n• Thermal throttling (automatic speed reduction) was common in poorly cooled cases\n• Users needed high-end air coolers or water cooling for stable operation\n• Some Prescott chips ran so hot they could discolor the motherboard around the socket\n\nComparison to modern CPUs:\n- A 2024 desktop CPU (e.g., Ryzen 7 7800X3D) draws ~80-90W but delivers 5-10x the performance.\n- The Prescott 3.8 GHz drew 115W for performance that a 2024 CPU achieves at 15-20W."
+        "content": "Prescott is famous among enthusiasts as the 'space heater' CPU. A 3.8 GHz Prescott could draw over 115 watts and reach temperatures above 70°C even with high-end cooling. Idle power was exceptionally high (30-40W) due to gate leakage current, meaning the transistors leaked power even when they were 'off'."
       },
       {
-        "title": "HISTORICAL CONTEXT",
-        "content": "The Prescott-2M arrived at a critical moment in computing history (2004-2005):\n\n• Windows XP SP2 was standard (improved security and Wi-Fi)\n• 64-bit Windows XP Professional x64 Edition launched (2005)\n• Steam launched in 2003, now becoming the dominant PC gaming platform\n• PCI Express replaced AGP for graphics (GeForce 6800 and Radeon X800 era)\n• SATA hard drives replaced Parallel ATA\n• DVD burners were standard; Blu-ray and HD DVD were coming soon\n\nKey games of the Prescott era:\n- Doom 3 (2004) – famously CPU and GPU heavy\n- Half-Life 2 (2004) – Source engine scaled well on Prescott\n- World of Warcraft (2004) – ran on almost anything\n- Battlefield 2 (2005) – required 2.4 GHz+ CPU\n- F.E.A.R. (2005) – pushed CPUs and GPUs to their limits\n\nA typical high-end gaming PC in 2005:\n- Pentium 4 660 (3.6 GHz Prescott-2M)\n- 1-2 GB DDR400 RAM (dual-channel)\n- NVIDIA GeForce 6800 GT or ATI Radeon X800 XL\n- Windows XP SP2\n- Massive copper tower CPU cooler (because the stock cooler wasn't enough)"
-      },
-      {
-        "title": "THE FALL OF NETBURST – A MUSEUM CAUTIONARY TALE",
-        "content": "Prescott is taught in computer architecture courses as a classic engineering failure:\n\n**What went wrong:**\n\n1. **Leakage current** – 90nm transistors leaked power even when 'off', creating idle power consumption that was higher than entire CPUs from just a few years earlier.\n2. **The clock speed wall** – Intel promised 4, 5, even 6 GHz. They never shipped a stable Prescott beyond 3.8 GHz. The 4 GHz Prescott was canceled mid-2004 because it couldn't pass thermal testing.\n3. **The power wall** – A 3.8 GHz Prescott consumed 115W. A hypothetical 4.5 GHz Prescott would have exceeded 180W – impossible to cool in a desktop case without water cooling or refrigeration.\n4. **AMD's Athlon 64** – While Intel struggled with heat, AMD released the Athlon 64 (2003) and Athlon 64 X2 (2005), which ran cooler, used less power, and performed better per clock. By 2005, AMD had the clear performance lead for the first time in a decade.\n5. **The Prescott sound** – Enthusiasts joked that you could tell a Prescott was running by the sound of the cooling fan ramping up and down constantly. Some Prescotts had a distinctive high-pitched electronic noise (coil whine) from the voltage regulator modules.\n\n**Consequences:**\n- Intel CEO Craig Barrett famously knelt and apologized for the Pentium 4's shortcomings in 2005.\n- Intel abandoned NetBurst entirely in 2006 with the Core 2 Duo (based on the Pentium M Banias you saw earlier).\n- The clock speed race ended. The industry shifted to multi-core and efficiency."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "The Prescott-2M is a crucial museum piece because:\n\n1. It represents the **highest clock speed x86 desktop CPU ever released** (3.8 GHz stock, some overclocked to 5 GHz with extreme cooling).\n2. It is the **hot-running CPU** against which all later hot CPUs are compared (e.g., 'This new chip runs hot, but is it Prescott hot?').\n3. It introduced **64-bit computing to Intel desktops** (EM64T) – still used in every modern x86 processor.\n4. The **Pentium D** was Intel's first desktop dual-core CPU – the ancestor of every Core i3/i5/i7/i9 you see today.\n5. It serves as a **cautionary exhibit** about the limits of technology and the consequences of poor architectural choices.\n\nIn a museum, a Prescott-2M should be displayed:\n- On an LGA 775 motherboard with a giant aftermarket cooler\n- Next to an AMD Athlon 64 (to show the competitor that won this era)\n- With a thermal image showing heat distribution across the die\n- Running Prime95 (a stress test) with a thermometer showing the temperature\n- Alongside a Pentium M Banias – the 'good' Intel architecture of the same era"
-      },
-      {
-        "title": "FUN MUSEUM FACT (OR WARNING)",
-        "content": "The Prescott-2M was the first mainstream processor that required an **active cooling fan on the motherboard's voltage regulator modules (VRMs)**. The power draw was so high that the components around the CPU socket would overheat without dedicated airflow. Some high-end motherboards came with small fans mounted directly over the VRM area. This is otherwise only seen on server and extreme overclocking hardware."
+        "title": "LEGACY",
+        "content": "Prescott is taught in computer architecture courses as a classic engineering failure. Intel promised 4-5 GHz but never shipped a stable Prescott beyond 3.8 GHz. The clock speed race ended. The industry shifted to multi-core and efficiency. Prescott represents the absolute peak (and breaking point) of the megahertz wars."
       }
     ]
   },
   {
-    "id": "core-yonah-conroe",
-    "title": "Intel Core (Yonah/Conroe) — Core Duo / Core 2 Duo / Core 2 Quad",
-    "year": "2006",
-    "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "1.06 GHz – 3.33 GHz",
-    "transistors": "151 Million (Yonah) / 291 Million (Conroe) / 582 Million (Kentsfield quad)",
-    "formFactor": "Socket M / Socket P (mobile); LGA 775 (desktop)",
+    "id": "pentium-d-smithfield-2004",
+    "title": "Intel Pentium D (Smithfield)",
+    "year": "2004",
+    "architecture": "64-bit (EM64T, x86-64)",
+    "clockSpeed": "2.66 GHz – 3.2 GHz",
+    "transistors": "230 Million (two 125M dies)",
+    "formFactor": "LGA 775",
     "colors": {
-      "from": "from-blue-400",
-      "via": "via-sky-600",
-      "to": "to-cyan-900"
+      "from": "from-orange-500",
+      "via": "via-red-600",
+      "to": "to-red-900"
     },
-    "previousModel": "Pentium 4 Prescott-2M",
-    "performanceMultiplier": 2.0,
+    "previousModel": "Pentium 4 Prescott",
+    "performanceMultiplier": 1.2,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Core microarchitecture (Yonah and Conroe, 2006) represents one of the most important turning points in processor history. After years of hot, inefficient NetBurst-based Pentium 4 processors that hit a clock speed wall at 3.8 GHz, Intel abandoned that architecture entirely and returned to the efficient P6 lineage — the same family that powered the Pentium Pro, Pentium II, Pentium III, and more recently the Pentium M Banias. The result was nothing short of a miracle: processors that ran cooler, used less power, and delivered 20-40% more performance per clock than the previous generation. The Core 2 Duo 'Conroe' famously destroyed AMD's Athlon 64 X2 in every benchmark, ending AMD's brief performance lead and re-establishing Intel as the undisputed king of x86 processors for the next decade.\n\nMUSEUM NOTE: This is the processor family that saved Intel. In 2004-2005, Intel was in crisis — AMD had better products, Intel's stock price was falling, and CEO Craig Barrett had publicly apologized for the Pentium 4. The Core architecture, developed primarily by Intel's Israeli design team (the same team behind the Pentium M), turned the company around completely. By 2007, Intel was profitable again, and AMD never held a performance lead again until 2017 (Ryzen)."
+        "content": "The Intel Pentium D Smithfield (2005) was Intel's first desktop dual-core processor. It consisted of two separate Prescott dies (90nm) placed under a single heat spreader – a 'glued' solution. Unlike AMD's true dual-core Athlon 64 X2, Intel's first dual-core was two separate chips communicating through the Front Side Bus. This was less efficient but got Intel to market faster."
       },
       {
-        "title": "THE TWO CORES: YONAH (MOBILE) VS CONROE (DESKTOP)",
-        "content": "Intel launched Core in two waves with different codenames:\n\n**Yonah (January 2006) — First Core mobile:**\n- Branding: Core Duo and Core Solo (32-bit only)\n- Process: 65nm\n- Market: Laptops (Centrino Duo platform)\n- Significance: First Intel dual-core mobile processor\n\n**Conroe (July 2006) — Core 2 Duo desktop:**\n- Branding: Core 2 Duo (64-bit)\n- Process: 65nm  \n- Market: Desktops, workstations, servers\n- Significance: The 'Pentium 4 killer'\n\n**Kentsfield (November 2006) — First Intel desktop quad-core:**\n- Branding: Core 2 Quad\n- Construction: Two Conroe dies in one package (similar to Pentium D but much more efficient)"
+        "title": "PERFORMANCE & THERMALS",
+        "content": "The Pentium D was Intel's rushed answer to AMD's Athlon 64 X2. It was hot, power-hungry, and slower than AMD's offering at the same clock speed. It required massive copper heatsinks with loud fans to dissipate up to 130W of heat."
       },
       {
-        "title": "MANUFACTURING PROCESS",
-        "content": "**Yonah (mobile first-generation Core):**\n• Process node: 65 nanometers (nm)\n• Transistor count: 151 million (dual-core)\n• Die size: Approximately 90 mm² (very small)\n\n**Conroe (desktop Core 2 Duo):**\n• Process node: 65 nanometers (nm)\n• Transistor count: 291 million\n• Die size: Approximately 143 mm²\n• Strained silicon: Enhanced version of 90nm strained silicon\n\n**Kentsfield (desktop Core 2 Quad):**\n• Process node: 65 nanometers (nm)\n• Transistor count: 582 million (two Conroe dies)\n• Die size: ~286 mm² (two dies under one heat spreader)\n\nWhy this mattered: The 65nm process reduced leakage current dramatically compared to 90nm Prescott. Where a Prescott 3.8 GHz drew 115W and idled at 30-40W, a Conroe 2.93 GHz drew 65W under full load and idled below 10W. That's half the peak power and one-fourth the idle power, with dramatically higher performance."
-      },
-      {
-        "title": "PERFORMANCE REVOLUTION",
-        "content": "When Conroe launched in July 2006, independent review sites published benchmarks that literally shocked readers:\n\n**Cinebench (CPU rendering):**\n- Pentium D 840 (3.2 GHz): ~15 seconds\n- AMD Athlon 64 FX-62 (2.8 GHz): ~35 seconds  \n- Core 2 Duo E6700 (2.67 GHz): ~15 seconds\n- Core 2 Extreme X6800 (2.93 GHz): ~13 seconds\n\n**Gaming performance (Quake 4):**\n- AMD Athlon 64 FX-62: 95 fps\n- Core 2 Duo E6700: 145 fps (52% faster)\n\n**Power consumption (idle/load):**\n- Pentium D 840: 60W / 135W\n- Athlon 64 FX-62: 45W / 95W\n- Core 2 Duo E6700: 12W / 65W\n\nThe E6700 used half the power of the AMD FX-62, ran cooler, and was 50% faster in many tasks. Overclockers discovered the E6600 (2.4 GHz, $316) could easily reach 3.2-3.6 GHz on air cooling, matching or beating the $999 X6800 Extreme Edition."
-      },
-      {
-        "title": "FORM FACTOR & PHYSICAL PACKAGE",
-        "content": "**Mobile (Yonah — Socket M and Socket P):**\n• Socket M (2006): 478 pins, 35W typical, for Core Duo\n• Socket P (2007, for later 65nm and 45nm chips): 478 pins but different keying\n• Package: FC-BGA (soldered) or PGA (socketed) depending on laptop\n• Size: 35mm x 35mm (typical mobile package)\n\n**Desktop Conroe (LGA 775):**\n• Socket: LGA 775 (same socket as late Pentium 4, but electrical compatibility varied)\n• 775 contact pads (no pins — pins in motherboard socket)\n• Package type: FC-LGA (Flip-Chip Land Grid Array)\n• Integrated heat spreader (IHS) soldered to die (better heat transfer than Pentium 4)\n• Cooling required: Standard 70-90W cooler (much quieter than Pentium 4 coolers)\n\n**Kentsfield (Core 2 Quad):**\n• Same LGA 775 package as Conroe\n• Two separate dies under one IHS\n• Higher TDP (95-130W) requires better cooling"
-      },
-      {
-        "title": "POWER & THERMALS",
-        "content": "**Yonah (Core Duo mobile):**\n- TDP: 9W (ULV) – 31W (standard voltage T2700)\n- Standard models (T2300-T2700): 31W\n- Low-voltage (L2400/L2500): 15W\n- Ultra-low voltage (U2400): 9W\n- Idle power: 3-6W (using C4 deep sleep)\n\n**Conroe (Core 2 Duo desktop):**\n- E6300/E6400 (1.86-2.13 GHz, 2MB): 65W\n- E6600/E6700 (2.4-2.67 GHz, 4MB): 65W\n- X6800 Extreme (2.93 GHz): 75W\n- Idle power: 8-12W (remarkably low for 2006 desktop)\n\n**Kentsfield (Core 2 Quad desktop):**\n- Q6600 (2.4 GHz): 95W (later G0 stepping reduced to 95W, earlier B3 was 105W)\n- Q6700 (2.67 GHz): 95W\n- QX6700/QX6800/QX6850: 130W\n- Idle power: 25-35W (still efficient for quad-core in 2006)\n\nComparison to Prescott Pentium 4:\n- Conroe E6700 (2.67 GHz): 65W TDP, 12W idle\n- Prescott 670 (3.8 GHz): 115W TDP, 40W idle\n- Conroe is 43% less peak power, 70% less idle power, and 20-40% faster per clock"
-      },
-      {
-        "title": "YONAH VS CONROE — KEY DIFFERENCES",
-        "content": "| Feature | Yonah (Core Duo) | Conroe (Core 2 Duo) |\n|---------|------------------|---------------------|\n| Launch | January 2006 | July 2006 |\n| Bit width | 32-bit only | 64-bit (Intel 64) |\n| L2 cache | 2 MB shared | 2 or 4 MB shared |\n| SSE version | SSE3 (no SSSE3) | SSE3 + SSSE3 |\n| Virtualization | VT-x (selected) | VT-x (wider) |\n| Target | Mobile only | Desktop, server, mobile (later Merom) |\n| Pipeline stages | 12 (efficient) | 14 (balanced for higher clocks) |\n| Max clock (launch) | 2.33 GHz | 2.93 GHz |"
-      },
-      {
-        "title": "HISTORICAL CONTEXT",
-        "content": "**The PC industry in 2006:**\n- Windows XP still dominant; Windows Vista launched January 2007 (disaster at first)\n- First mainstream SSDs emerging (32-64GB, $500+)\n- PCI Express 1.1 standard for graphics\n- SATA 3Gb/s hard drives standard\n- DDR2 memory at 533-800 MHz becoming affordable\n- Broadband internet reached 60% of US homes\n- YouTube launched in late 2005, now exploding in popularity\n\n**The AMD competition:**\nBefore Conroe (early 2006):\n- AMD Athlon 64 X2 4800+ (2.4 GHz) was the best gaming CPU\n- AMD had performance, efficiency, and price advantage\n\nAfter Conroe (late 2006):\n- Core 2 Duo E6600 ($316) beat AMD's $512 FX-62 in every test\n- AMD's stock price crashed from $40 to $20 in six months\n- Intel regained technology leadership and never looked back"
-      },
-      {
-        "title": "THE END OF THE MEGAHERTZ WAR (MUSEUM IMPORTANCE)",
-        "content": "The Core architecture marked the official end of the 'megahertz war' that had dominated PC marketing since the 1990s:\n\n- Previously: Higher clock speed = better (even if inefficient)\n- After Core: Performance per clock (IPC) + efficiency = better\n\nIntel's marketing changed from 'fastest clock speeds' to 'greatest performance per watt' and 'smart performance.' AMD's PR rating system (where an 2.4 GHz CPU was '4800+') became obsolete. Consumers started learning terms like 'IPC,' 'pipeline stages,' and 'cache architecture.'"
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "**What the Core microarchitecture gave us:**\n\n1. **The end of NetBurst** — Intel abandoned the Pentium 4 lineage permanently\n2. **The blueprint for modern CPUs** — Every Intel Core i3/i5/i7/i9 (2008 to present) traces its design philosophy to Core\n3. **Efficient multi-core** — Made dual-core mainstream and quad-core affordable\n4. **64-bit desktop dominance** — Core 2 Duo accelerated the transition from 32-bit Windows\n5. **Intel's return to leadership** — Conroe ended AMD's brief advantage and set the stage for the next decade\n\nIn a museum, a Core 2 Duo Conroe should be displayed:\n- Next to a Pentium 4 Prescott (to show the dramatic improvement)\n- Next to an AMD Athlon 64 X2 (to show the competitive context)\n- Running Windows XP or an early Windows 7 build\n- With a screenshot of the 2006 AnandTech review that declared 'Intel is back'\n- With a thermal image (idle vs load) to show efficiency"
-      },
-      {
-        "title": "FUN MUSEUM FACT: THE OVERCLOCKING LEGEND",
-        "content": "The Core 2 Duo E6600 (2.4 GHz) and E6300 (1.86 GHz) became legendary overclockers because:\n- 65nm process had headroom for 3.2-3.6 GHz on good air cooling\n- 1.86 GHz E6300 ($183) could often reach 3.0+ GHz (60% overclock)\n- Users felt they got 'Extreme Edition performance for mainstream price'\n- Overclocked Core 2 Duos remained competitive in gaming until 2013-2014\n\nSome enthusiasts still run overclocked Core 2 Quads as dedicated retro gaming or NAS systems today (2025)."
+        "title": "LEGACY",
+        "content": "The Pentium D was a stopgap. It proved dual-core was possible on Intel's platform but was inefficient and uncompetitive. Its successor, the Core 2 Duo Conroe (2006), would completely demolish AMD's lead and re-establish Intel as the performance king."
       }
     ]
   },
   {
-    "id": "wolfdale-core2",
-    "title": "Intel Core 2 Duo \"Wolfdale\" (45nm)",
+    "id": "core-duo-yonah-2006",
+    "title": "Intel Core Duo (Yonah)",
+    "year": "2006",
+    "architecture": "32-bit (IA-32, x86)",
+    "clockSpeed": "1.06 GHz – 2.33 GHz",
+    "transistors": "151 Million",
+    "formFactor": "Socket M / BGA (mobile)",
+    "colors": {
+      "from": "from-blue-400",
+      "via": "via-sky-500",
+      "to": "to-indigo-800"
+    },
+    "previousModel": "Pentium M Banias",
+    "performanceMultiplier": 1.8,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Intel Core Duo Yonah (January 2006) was the first Intel dual-core mobile processor and the first to use the 'Core' brand. It was the direct descendant of the Pentium M and the ancestor of every modern Core processor. Yonah was 32-bit only and used a shared L2 cache – an industry first for x86 processors."
+      },
+      {
+        "title": "KEY INNOVATIONS",
+        "content": "It was the first x86 processor with a shared L2 cache (2MB shared between two cores). This eliminated cache coherency traffic and meant one core could use all 2MB if the other was idle."
+      },
+      {
+        "title": "LEGACY",
+        "content": "Yonah proved that Intel could build efficient, high-performance mobile dual-core processors. Its successor, Core 2 Duo (Conroe, 64-bit), would take the same design principles and dominate the desktop market."
+      }
+    ]
+  },
+  {
+    "id": "core-2-duo-conroe-2006",
+    "title": "Intel Core 2 Duo (Conroe)",
+    "year": "2006",
+    "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "1.8 GHz – 3.0 GHz",
+    "transistors": "291 Million",
+    "formFactor": "LGA 775",
+    "colors": {
+      "from": "from-cyan-400",
+      "via": "via-blue-500",
+      "to": "to-indigo-900"
+    },
+    "previousModel": "Pentium D Smithfield",
+    "performanceMultiplier": 2.2,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Intel Core 2 Duo Conroe (July 2006) was one of the most important processors in history. After years of hot, inefficient Pentium 4 processors, Intel abandoned NetBurst and returned to the efficient P6 lineage. The result was a miracle: 40% more performance than the previous generation while using half the power. It destroyed AMD's Athlon 64 X2 in every benchmark."
+      },
+      {
+        "title": "THE OVERCLOCKING LEGEND",
+        "content": "The E6600 (2.4 GHz, $316) could reach 3.2-3.6 GHz on air cooling. An overclocked E6600 easily matched or beat the $999 X6800 Extreme Edition, creating a massive wave of PC enthusiasts building budget powerhouse rigs."
+      },
+      {
+        "title": "LEGACY",
+        "content": "Conroe is taught in computer architecture courses as the perfect example of a 'tock' – a new architecture that resets the performance bar. Every modern Intel Core processor traces its lineage to Conroe. In any museum, Conroe should be displayed next to a Pentium 4 Prescott to show the dramatic leap in efficiency."
+      }
+    ]
+  },
+  {
+    "id": "core-2-quad-kentsfield-2006",
+    "title": "Intel Core 2 Quad (Kentsfield)",
+    "year": "2006",
+    "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.4 GHz – 3.0 GHz",
+    "transistors": "582 Million",
+    "formFactor": "LGA 775",
+    "colors": {
+      "from": "from-teal-400",
+      "via": "via-green-500",
+      "to": "to-emerald-900"
+    },
+    "previousModel": "Core 2 Duo Conroe",
+    "performanceMultiplier": 1.6,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Intel Core 2 Quad Kentsfield (November 2006) was Intel's first desktop quad-core processor. It consisted of two Core 2 Duo Conroe dies placed on a single package. Kentsfield brought quad-core computing to enthusiasts and workstations for the first time. The Q6600 (2.4 GHz) became legendary, often called the 'people's quad-core'."
+      },
+      {
+        "title": "THE Q6600 LEGEND",
+        "content": "The Q6600 became an icon because it was affordable ($266 after price drops) and overclocked exceptionally well (3.0-3.4 GHz on air cooling). It provided true quad-core performance for enthusiasts, and many Q6600 systems remained in service for 7-8 years (until 2014-2015)."
+      },
+      {
+        "title": "LEGACY",
+        "content": "Kentsfield made quad-core mainstream. It proved that multi-core was the future, not higher clock speeds. The Q6600 is one of the most beloved CPUs ever made – offering affordable performance that lasted for years."
+      }
+    ]
+  },
+  {
+    "id": "core-2-duo-wolfdale-2007",
+    "title": "Intel Core 2 Duo (Wolfdale)",
     "year": "2007",
     "architecture": "64-bit (x86-64, Intel 64)",
     "clockSpeed": "2.33 GHz – 3.50 GHz",
     "transistors": "410 Million",
-    "formFactor": "LGA 775 (desktop) / Socket P (mobile)",
+    "formFactor": "LGA 775",
     "colors": {
-      "from": "from-indigo-400",
-      "via": "via-purple-600",
+      "from": "from-purple-400",
+      "via": "via-indigo-500",
       "to": "to-violet-900"
     },
     "previousModel": "Core 2 Duo Conroe",
-    "performanceMultiplier": 1.15,
+    "performanceMultiplier": 1.2,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Wolfdale (2007-2008) was the 45 nanometer (nm) shrink of the Core 2 Duo architecture, representing the second generation of Intel's revolutionary Core microarchitecture. Following the massive success of the 65nm Conroe (2006), Wolfdale delivered higher clock speeds, lower power consumption, and new instructions — all on a cutting-edge 45nm process that introduced the industry's first High-K metal gate (HKMG) transistors. This was a major milestone in semiconductor manufacturing, often called the biggest transistor advance in 40 years."
+        "content": "The Intel Core 2 Duo Wolfdale (2008) was the 45nm shrink of Conroe, built on Intel's revolutionary High-K Metal Gate (HKMG) process – the single biggest transistor advance in 40 years. Wolfdale delivered higher clock speeds, lower power consumption, and new SSE4.1 instructions. The E8400 (3.0 GHz) and E8600 (3.33 GHz) became legendary overclockers."
       },
       {
-        "title": "THE 45NM REVOLUTION — HIGH-K METAL GATE",
-        "content": "Wolfdale was built on Intel's 45nm process with Hafnium-based High-K metal gate transistors — the single biggest transistor innovation since polysilicon gates replaced aluminum in the 1980s.\n\nTraditional silicon dioxide gate insulators were leaking badly at 65nm. Intel replaced them with a hafnium-based High-K dielectric and changed the gate electrode to metal. This reduced gate leakage current by more than 10x, enabling higher clock speeds at much lower voltages."
+        "title": "45NM HKMG (HIGH-K METAL GATE)",
+        "content": "By replacing silicon dioxide with a hafnium-based dielectric, Intel achieved 10x lower gate leakage current. This resulted in 37% higher performance at the same power, or 50% lower power at the same performance level."
       },
       {
-        "title": "PERFORMANCE — THE DUAL-CORE KING",
-        "content": "When Wolfdale launched, it dominated everything in its class. Against AMD's Phenom X4 9850 (a 2.5 GHz quad-core), the dual-core Wolfdale E8400 delivered higher framerates in gaming despite having half the cores. It effectively ended AMD's competitiveness in the high-end desktop market until the arrival of Ryzen a decade later."
-      },
-      {
-        "title": "THE OVERCLOCKING LEGEND",
-        "content": "The Wolfdale E8400 (3.0 GHz) and E8600 (3.33 GHz) became legendary among PC enthusiasts. Because the 45nm HKMG process provided massive voltage headroom and low heat output, a $183 E8400 could easily be overclocked to 4.0 GHz on cheap air cooling. At that speed, it matched or beat Intel's own $1,000+ Extreme Edition chips. This 'budget overclocker' culture defined PC building for years."
-      },
-      {
-        "title": "POWER & THERMALS",
-        "content": "Wolfdale ran significantly cooler than Conroe at the same clock speed. A Wolfdale at 4.0 GHz (overclocked) often ran cooler than a Conroe at 3.0 GHz (stock). Its idle power consumption dropped to an astonishing 5-8W, making it highly efficient for both desktops and laptops."
-      },
-      {
-        "title": "HISTORICAL CONTEXT",
-        "content": "Wolfdale arrived during the painful launch of Windows Vista (2007). Many PC buyers downgraded to Windows XP to maintain performance. Key games of this era included Crysis (which launched the 'But can it run Crysis?' meme), Call of Duty 4: Modern Warfare, and Portal. A typical high-end rig paired a Wolfdale E8400 with an NVIDIA GeForce 8800 GTX."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "Wolfdale represents the absolute peak of the LGA 775 platform. Many enthusiasts argue the E8400 is the greatest dual-core processor ever made. More importantly, its 45nm HKMG technology extended Moore's Law for another decade; every advanced processor in your phone, laptop, and game console today uses a descendant of this transistor design."
+        "title": "LEGACY",
+        "content": "Wolfdale represents the peak of the Core 2 Duo line. It was the refined, perfected version of Conroe – running faster, cooler, and smoother. Many enthusiasts consider the E8400/E8600 the greatest dual-core processors ever made."
       }
     ]
   },
   {
-    "id": "nehalem-1st-gen-core",
-    "title": "Intel Nehalem — 1st Gen Core (i3 / i5 / i7)",
+    "id": "core-i7-1st-gen-nehalem-bloomfield-2008",
+    "title": "1st Gen Intel Core i7 (Nehalem Bloomfield)",
     "year": "2008",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.66 GHz – 3.60 GHz",
+    "clockSpeed": "2.66 GHz – 3.33 GHz",
     "transistors": "731 Million",
-    "formFactor": "LGA 1366 / LGA 1156",
+    "formFactor": "LGA 1366",
     "colors": {
       "from": "from-rose-400",
-      "via": "via-red-600",
+      "via": "via-red-500",
       "to": "to-orange-900"
     },
-    "previousModel": "Core 2 Quad Yorkfield",
-    "performanceMultiplier": 1.35,
+    "previousModel": "Core 2 Quad Kentsfield",
+    "performanceMultiplier": 1.4,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Nehalem microarchitecture (2008) represented the most fundamental redesign of Intel's x86 architecture since the original Pentium Pro in 1995. Nehalem introduced an entirely new foundation: an integrated memory controller, a high-speed point-to-point interconnect, a shared L3 cache, and the return of Hyper-Threading. Nehalem launched under the new Core i7, i5, and i3 branding that continues to this day, making it one of the most enduring brand names in computing history."
+        "content": "The Intel Core i7-920 (2008) was the first processor to bear the 'Core i7' name. It introduced the Nehalem microarchitecture – the biggest redesign since the Pentium Pro (1995). Nehalem brought an integrated memory controller, the return of Hyper-Threading, a shared L3 cache, and the QuickPath Interconnect (QPI). The i7-920 ($284) became an overclocking legend."
       },
       {
-        "title": "THE BIGGEST ARCHITECTURAL CHANGE IN A DECADE",
-        "content": "Nehalem killed the Front Side Bus (FSB) that had bottlenecked PCs since the 1990s. Previous CPUs communicated with RAM through a separate motherboard chipset. Nehalem moved the memory controller directly onto the CPU die. This drastically lowered memory latency by 40-50% and supported massive bandwidth via triple-channel DDR3 memory."
+        "title": "KEY INNOVATIONS",
+        "content": "By moving the memory controller onto the die and utilizing triple-channel DDR3, Nehalem achieved a massive 40-50% reduction in memory latency. Hyper-threading returned, allowing the 4 physical cores to handle 8 simultaneous threads."
       },
       {
-        "title": "HYPERTHREADING — THE COMEBACK",
-        "content": "Hyper-Threading (Intel's name for Simultaneous Multi-Threading) was abandoned during the Core 2 era. Nehalem brought it back with major improvements. Each physical core appeared as two logical cores to the operating system, allowing a 4-core processor to handle 8 threads simultaneously. This resulted in a 15-30% performance gain in threaded apps with minimal power penalty."
-      },
-      {
-        "title": "POWER & THERMALS",
-        "content": "The flagship Bloomfield chips (LGA 1366) were power-hungry, carrying a 130W TDP. The i7-920's stock cooler was barely adequate — most enthusiasts upgraded to third-party coolers. At 3.6-4.0 GHz (a common overclock), the i7-920 could draw 150-180W and required high-end air or water cooling."
-      },
-      {
-        "title": "HISTORICAL CONTEXT",
-        "content": "Nehalem launched during the 2008 global financial crisis, yet enthusiasts still bought the high-end i7s. By 2009, Windows 7 launched to universal praise, fixing Vista's problems and perfectly utilizing Nehalem's multi-threading capabilities. Gaming started utilizing multiple cores effectively with titles like Battlefield: Bad Company 2."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "Nehalem is the direct ancestor of every modern Intel Core processor. The Core i7-920 ($284) became an overclocking legend, matching CPUs that cost three times as much. Every Intel CPU from 2008 to 2025 traces its fundamental design philosophy back to Nehalem: integrated memory controllers, shared L3 cache, Turbo Boost, and Hyper-Threading all became standard here."
+        "title": "LEGACY",
+        "content": "Nehalem is the direct ancestor of every modern Intel Core processor. The i7-920 is remembered as one of the best overclocking values ever – a $284 CPU that could easily be pushed to match $999 Extreme Edition performance with a few BIOS tweaks."
       }
     ]
   },
   {
-    "id": "bonnell-atom",
-    "title": "Intel Bonnell — Atom (45nm)",
+    "id": "core-i5-1st-gen-nehalem-lynnfield-2008",
+    "title": "1st Gen Intel Core i5 (Nehalem Lynnfield)",
     "year": "2008",
-    "architecture": "32-bit (x86) / 64-bit on later models",
+    "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.66 GHz – 2.80 GHz",
+    "transistors": "774 Million",
+    "formFactor": "LGA 1156",
+    "colors": {
+      "from": "from-pink-400",
+      "via": "via-rose-500",
+      "to": "to-red-900"
+    },
+    "previousModel": "Core i7 Nehalem Bloomfield",
+    "performanceMultiplier": 0.9,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Intel Core i5-750 (2009) was the first Core i5 processor. Based on the Nehalem architecture (Lynnfield), it brought an integrated memory controller and PCIe controller to mainstream desktops. Unlike the i7, the i5 had no Hyper-Threading and used a dual-channel memory controller. The i5-750 became the go-to processor for gamers who didn't need Hyper-Threading."
+      },
+      {
+        "title": "PERFORMANCE",
+        "content": "At stock (2.66 GHz), the i5-750 was a strong gaming CPU. Overclocked to 3.6-4.0 GHz, it traded blows with the higher-end i7-920 in gaming, while running far more efficiently on a 95W TDP compared to the i7's 130W."
+      },
+      {
+        "title": "LEGACY",
+        "content": "The i5-750 defined the 'gaming CPU' segment – enough cores (4), good clock speeds, and no Hyper-Threading (which games didn't use efficiently at the time). It was the perfect balance for gamers on a budget."
+      }
+    ]
+  },
+  {
+  "id": "core-i3-1st-gen-nehalem-clarkdale-2008",
+  "title": "1st Gen Intel Core i3 (Nehalem Clarkdale)",
+  "year": "2008",
+  "architecture": "64-bit (x86-64, Intel 64)",
+  "clockSpeed": "2.93 GHz – 3.33 GHz",
+  "transistors": "559 Million",
+  "formFactor": "LGA 1156",
+  "colors": {
+    "from": "from-yellow-400",
+    "via": "via-amber-500",
+    "to": "to-yellow-900"
+  },
+  "previousModel": "Core 2 Duo Wolfdale",
+  "performanceMultiplier": 1.2,
+  "description": [
+    {
+      "title": "OVERVIEW",
+      "content": "The Intel Core i3-530 (2010) was the first Core i3 processor. Based on the Westmere (32nm) shrink of Nehalem, Clarkdale was unique: it used two dies in one package (32nm CPU + 45nm GPU). The i3 had Hyper-Threading (2 cores/4 threads) but no Turbo Boost. It became the budget gaming hero, offering excellent performance for under $150."
+    },
+    {
+      "title": "TWO-DIE PACKAGE",
+      "content": "Under the heat spreader sat a 32nm CPU die and an older 45nm GPU die. This physical separation is a museum curiosity today, showing Intel's transitional step before fully integrating graphics directly onto the CPU die."
+    },
+    {
+      "title": "LEGACY",
+      "content": "The Clarkdale i3 proved that dual-core with Hyper-Threading was enough for gaming in 2010-2012. It was the budget hero of its day, offering i5-like gaming performance for $100 less when paired with a dedicated graphics card."
+    }
+  ]
+},
+  {
+    "id": "intel-atom-bonnell-2010",
+    "title": "Intel Atom (Bonnell)",
+    "year": "2010",
+    "architecture": "32-bit / 64-bit on later models",
     "clockSpeed": "800 MHz – 2.13 GHz",
     "transistors": "47 Million",
-    "formFactor": "BGA 437 / BGA 441 (Soldered)",
+    "formFactor": "BGA 437 / BGA 441 (soldered)",
     "colors": {
-      "from": "from-teal-400",
-      "via": "via-green-600",
-      "to": "to-lime-900"
+      "from": "from-lime-400",
+      "via": "via-green-500",
+      "to": "to-emerald-900"
     },
     "previousModel": "Intel ULV / Celeron M",
     "performanceMultiplier": 1.1,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Bonnell microarchitecture (2008) was the foundation of Intel's Atom processor line — a completely new, low-power x86 design intended for netbooks, embedded systems, and smartphones. Built from the ground up for minimalist power consumption, early single-core models drew just 0.5 to 2.5 watts. It accidentally created the massive 'netbook' explosion from 2008-2011, bringing cheap computing to millions."
+        "content": "The Intel Atom (Bonnell, 2008-2012) was Intel's ultra-low-power x86 architecture designed for netbooks, tablets, and embedded devices. Unlike every other Intel CPU since the Pentium Pro (1995), Bonnell used in-order execution – simpler, lower power, but roughly half as fast per clock as a Core 2."
       },
       {
-        "title": "WHY BONNELL WAS UNIQUE (IN-ORDER EXECUTION)",
-        "content": "Unlike every other Intel x86 CPU since 1995, Bonnell was 'in-order' rather than 'out-of-order'. Desktop CPUs reorder instructions dynamically to keep execution units busy, which takes massive amounts of power. Bonnell executed instructions exactly as the compiler ordered them. This made the die incredibly tiny and power-efficient, but resulted in terrible performance per clock (slower than a 1999 Pentium III at the same speed)."
+        "title": "THE NETBOOK CRAZE",
+        "content": "The Atom N270 powered tens of millions of cheap netbooks ($200-$400, Windows XP), bringing computing to developing nations and recession-era budgets. In 2009 alone, 30 million netbooks were sold, creating a brief but massive cultural phenomenon."
       },
       {
-        "title": "POWER & THERMALS",
-        "content": "The Atom N270 had a TDP of just 2.5W and could be cooled completely passively. However, in a classic engineering blunder, Intel paired this 2.5W CPU with an ancient 2005 chipset (the 945GSE) that consumed 6W. The industry mocked Intel for 'saving 2W on the CPU but wasting 6W on the chipset.'"
-      },
-      {
-        "title": "THE NETBOOK CRAZE (2008-2011)",
-        "content": "Bonnell directly enabled 'netbooks': tiny, 2-pound laptops with 9-inch screens costing $200-$300. In 2009 alone, over 30 million netbooks were sold (like the Asus Eee PC). They ran Windows XP and were perfectly suited for the recession-era economy. The craze died instantly in 2010 when Apple launched the iPad, which offered a vastly superior low-power experience."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "Bonnell was Intel's 'ARM killer' that failed to kill ARM. Intel spent billions trying to put Atom chips into smartphones but completely failed to break Qualcomm and Apple's dominance. However, its legacy lives on: Bonnell proved that in-order x86 could still be viable at ultra-low power, paving the way for the 'Efficiency Cores' (E-cores) used in modern Intel processors today."
+        "title": "LEGACY",
+        "content": "Bonnell was Intel's attempt to challenge ARM in smartphones and tablets. It failed in phones due to being too power-hungry, but succeeded wildly in netbooks and embedded systems (NAS, point-of-sale). The Atom line set the stage for modern low-power Intel Efficiency Cores."
       }
     ]
   },
   {
-    "id": "westmere-1st-gen-core-32nm",
-    "title": "Intel Westmere — 1st Gen Core (32nm)",
-    "year": "2010",
+    "id": "core-i7-1st-gen-westmere-gulftown-2011",
+    "title": "1st Gen Intel Core i7 (Westmere Gulftown)",
+    "year": "2011",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.40 GHz – 3.60 GHz",
+    "clockSpeed": "3.20 GHz – 3.46 GHz",
     "transistors": "1.17 Billion",
-    "formFactor": "LGA 1156 / LGA 1366",
+    "formFactor": "LGA 1366",
     "colors": {
-      "from": "from-yellow-400",
-      "via": "via-amber-600",
-      "to": "to-yellow-900"
+      "from": "from-blue-400",
+      "via": "via-cyan-500",
+      "to": "to-blue-900"
     },
-    "previousModel": "Nehalem",
-    "performanceMultiplier": 1.15,
+    "previousModel": "Core i7 Nehalem Bloomfield",
+    "performanceMultiplier": 1.4,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Westmere microarchitecture (2010) was the 32 nanometer (nm) shrink of Nehalem. While it was not a new architecture, it brought several historic firsts: the first 32nm processors in the industry, the first 6-core desktop CPU (Gulftown), the first Intel CPUs with integrated graphics on the same package (Clarkdale), and the introduction of hardware-accelerated AES encryption (AES-NI)."
+        "content": "The Intel Core i7-980X (March 2010) was Intel's first 6-core desktop processor. Built on the 32nm Westmere architecture (a shrink of Nehalem), Gulftown brought 6 cores and 12 threads to the LGA 1366 platform. With 12MB of L3 cache and clock speeds up to 3.46 GHz, it was a rendering and video editing monster."
       },
       {
-        "title": "THE 32NM SHRINK",
-        "content": "Westmere's 32nm process was a manufacturing triumph. It had 50x lower gate leakage than the 45nm process. This massive reduction in leaked power allowed Intel to fit 1.17 billion transistors and 6 cores onto a single desktop chip without increasing the thermal limits. Just 15 years prior, the Pentium Pro had only 5.5 million transistors."
+        "title": "EFFICIENCY & THERMALS",
+        "content": "Despite having 50% more cores than the 4-core i7-920, the 32nm efficiency allowed the Gulftown chips to maintain the exact same 130W TDP. It was also a legendary overclocker, hitting 4.0-4.2 GHz easily on good air cooling."
       },
       {
-        "title": "INTEGRATED GRAPHICS (CLARKDALE)",
-        "content": "Westmere introduced Intel's first 'integrated graphics on package' for the desktop. However, it wasn't a true single-chip solution. Under the heat spreader sat two distinct pieces of silicon: a 32nm CPU die and an older 45nm GPU die. This two-die design was a stopgap until Intel could fully integrate the graphics in the next generation."
-      },
-      {
-        "title": "AES-NI (HARDWARE ENCRYPTION)",
-        "content": "Westmere introduced AES-NI, providing hardware acceleration for encryption. Software encryption on previous chips maxed out at 50-100 MB/s; Westmere could process 500-1000 MB/s. This single feature made full-disk encryption (like BitLocker) practical for everyday users without slowing down their computers."
-      },
-      {
-        "title": "POWER & THERMALS",
-        "content": "The 32nm efficiency was stunning. The 6-core Gulftown chip had 50% more cores than the previous generation, yet maintained the exact same 130W TDP. Idle power consumption dropped drastically, significantly extending laptop battery life during the Westmere era."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "Westmere is often called the 'forgotten generation' because it was replaced by the revolutionary Sandy Bridge just 12 months later. However, its introduction of AES-NI changed computer security forever, and the 6-core Gulftown (i7-980X) gave extreme enthusiasts a taste of the multi-core future long before mainstream software was ready for it."
+        "title": "LEGACY",
+        "content": "Gulftown brought 6-core computing to desktops for the first time. The i7-980X and 990X were the final, best CPUs for LGA 1366 motherboards. They provided so much performance headroom that many enthusiasts kept their X58 systems running smoothly until 2015-2017."
       }
     ]
   },
   {
-    "id": "sandy-bridge-2nd-gen-core",
-    "title": "Intel Sandy Bridge — 2nd Gen Core (i3 / i5 / i7)",
+    "id": "core-i5-i3-1st-gen-westmere-clarkdale-2011",
+    "title": "1st Gen Intel Core i5 / i3 (Westmere Clarkdale)",
     "year": "2011",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.5 GHz – 3.9 GHz",
+    "clockSpeed": "2.93 GHz – 3.60 GHz",
+    "transistors": "559 Million",
+    "formFactor": "LGA 1156",
+    "colors": {
+      "from": "from-orange-400",
+      "via": "via-amber-500",
+      "to": "to-yellow-900"
+    },
+    "previousModel": "Core i5 Nehalem Lynnfield",
+    "performanceMultiplier": 1.1,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Westmere Clarkdale (2010) was the 32nm shrink of Nehalem for dual-core desktop processors. It used the curious two-die package (32nm CPU + 45nm GPU) and introduced AES-NI (hardware encryption). Clarkdale was short-lived – replaced by Sandy Bridge just 12 months later."
+      },
+      {
+        "title": "AES-NI HARDWARE ENCRYPTION",
+        "content": "These were the first Intel processors with AES-NI, executing encryption 5-10x faster than software-only processing. This massive hardware acceleration made full-disk encryption like BitLocker practical for everyday users without a performance penalty."
+      },
+      {
+        "title": "LEGACY",
+        "content": "Clarkdale was the 'forgotten generation' – short-lived and quickly overshadowed by Sandy Bridge. However, its introduction of AES-NI fundamentally changed PC security, and the feature remains a rigid standard in all x86 CPUs today."
+      }
+    ]
+  },
+  {
+    "id": "core-i7-i5-2nd-gen-sandy-bridge-2012",
+    "title": "2nd Gen Intel Core i7 / i5 (Sandy Bridge)",
+    "year": "2012",
+    "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.5 GHz – 3.5 GHz (stock); 4.5-4.8 GHz (overclocked)",
     "transistors": "1.16 Billion",
     "formFactor": "LGA 1155",
     "colors": {
       "from": "from-sky-400",
-      "via": "via-blue-600",
+      "via": "via-blue-500",
       "to": "to-indigo-900"
     },
-    "previousModel": "Westmere",
-    "performanceMultiplier": 1.25,
+    "previousModel": "Westmere Gulftown",
+    "performanceMultiplier": 1.3,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Sandy Bridge microarchitecture (2011) was a ground-up redesign of Intel's x86 architecture. It introduced a unified ring bus interconnect, last-level cache, integrated graphics, and a memory controller — all on a single 32nm die. Sandy Bridge delivered 10-20% higher IPC, AVX instructions, and a revolutionary new overclocking system. The Core i5-2500K and i7-2600K re-established Intel's performance leadership for years and became one of the most beloved processor families ever made."
+        "content": "The Intel Sandy Bridge (2011) was a ground-up redesign – the 'tock' after Westmere's 'tick'. It introduced a true SoC design, a ring bus interconnect, AVX instructions, and Quick Sync Video. The Core i5-2500K and i7-2600K became legendary overclockers, reaching 4.5-5.0 GHz on air cooling. Sandy Bridge firmly re-established Intel's performance leadership."
       },
       {
-        "title": "THE INTEGRATED SoC & RING BUS",
-        "content": "Unlike previous generations that used multiple dies glued together, Sandy Bridge integrated everything onto one 32nm System-on-a-Chip (SoC). To connect the cores, graphics, and cache, Intel invented the 'Ring Bus.' Data traveled clockwise or counter-clockwise around a ring, drastically lowering memory latency and allowing the integrated GPU to share the high-speed L3 cache."
+        "title": "RING BUS & SOC DESIGN",
+        "content": "Instead of multiple discrete components on a motherboard, Sandy Bridge integrated the CPU, GPU, memory controller, and PCIe on a single die. It connected them via a high-speed Ring Bus interconnect, dramatically lowering latencies across the entire system."
       },
       {
-        "title": "OVERCLOCKING — THE GOLDEN ERA",
-        "content": "Sandy Bridge's 'K-series' unlocked processors revolutionized overclocking. Because the 32nm process had incredible thermal headroom and Intel used high-quality fluxless solder between the die and heat spreader, a $216 i5-2500K (3.3 GHz) could routinely be overclocked to 4.5 - 4.8 GHz on cheap air cooling. At that speed, it beat CPUs costing three times as much."
-      },
-      {
-        "title": "QUICK SYNC & USABLE GRAPHICS",
-        "content": "Sandy Bridge featured Intel HD Graphics 3000, which was finally powerful enough for light gaming (Portal 2, League of Legends) without a dedicated graphics card. More importantly, it introduced 'Quick Sync Video'—dedicated hardware that encoded H.264 video 4 to 8 times faster than CPU-only encoding, revolutionizing video editing on laptops."
-      },
-      {
-        "title": "HISTORICAL CONTEXT",
-        "content": "Sandy Bridge launched into a competitive vacuum. Later that year, AMD released its 'Bulldozer' architecture, which was a historic failure—running hotter and slower than Sandy Bridge. This lack of competition allowed Intel to raise prices and dominate the desktop market entirely uncontested until the launch of AMD Ryzen 6 years later."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "Sandy Bridge is considered one of the greatest processor architectures of all time. Its Ring Bus, SoC design, and AVX instructions set the template for the next decade of Intel designs. The longevity of these chips was unprecedented; a heavily overclocked i5-2500K or i7-2600K remained relevant for high-end gaming for an astonishing 6 to 7 years."
+        "title": "LEGACY",
+        "content": "Sandy Bridge is one of the most beloved Intel architectures. The 2500K and 2600K remained relevant for gaming until 2017-2018 – a staggering 6-7 year lifespan. Sandy Bridge also marked Intel's complete dominance over AMD, as the competing 'Bulldozer' architecture was a commercial disaster."
       }
     ]
   },
   {
-    "id": "ivy-bridge-3rd-gen-core",
-    "title": "Intel Ivy Bridge — 3rd Gen Core (i3 / i5 / i7)",
-    "year": "2012",
+    "id": "core-i7-i5-3rd-gen-ivy-bridge-2013",
+    "title": "3rd Gen Intel Core i7 / i5 (Ivy Bridge)",
+    "year": "2013",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.5 GHz – 3.9 GHz",
+    "clockSpeed": "2.5 GHz – 3.5 GHz",
     "transistors": "1.4 Billion",
     "formFactor": "LGA 1155",
     "colors": {
-      "from": "from-lime-400",
-      "via": "via-green-600",
-      "to": "to-emerald-900"
+      "from": "from-green-400",
+      "via": "via-emerald-500",
+      "to": "to-teal-900"
     },
     "previousModel": "Sandy Bridge",
     "performanceMultiplier": 1.1,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Ivy Bridge microarchitecture (2012) was the 22 nanometer (nm) shrink of Sandy Bridge. Architecturally, it was nearly identical to its predecessor, but it represented a colossal leap in manufacturing: it was the first mass-produced processor to use FinFET (3D) transistors. It also brought PCI Express 3.0 to the mainstream desktop and pushed integrated graphics (HD 4000) to a level where casual gaming was finally possible without a discrete graphics card."
+        "content": "The Intel Ivy Bridge (2012) was the 22nm 'tick' shrink of Sandy Bridge. It represented a colossal leap in manufacturing: it was the first mass-produced processor to use FinFET (3D) transistors. It also brought PCI Express 3.0 to the mainstream desktop and pushed integrated graphics to a level where casual gaming was finally possible without a discrete graphics card."
       },
       {
-        "title": "THE 22NM FINFET (TRI-GATE) REVOLUTION",
-        "content": "Ivy Bridge introduced the biggest transistor advancement since 2007. Traditional planar transistors had a flat silicon channel. FinFET transistors raised the silicon channel into a thin, vertical 'fin' (like a shark fin), with the gate wrapping around three sides. This provided vastly better electrical control, reducing leakage by 10x and lowering power consumption by 50% compared to previous designs."
+        "title": "THERMAL PASTE CONTROVERSY (DELIDDING)",
+        "content": "Sandy Bridge used fluxless solder to attach the processor die to the metal heat spreader. For Ivy Bridge, Intel switched to cheap thermal paste (TIM). Ivy Bridge ran 10-20°C hotter than Sandy Bridge, ruining its overclocking potential. This sparked the 'delidding' craze where enthusiasts literally sliced the metal lids off their processors to replace the paste with liquid metal."
       },
       {
-        "title": "THE THERMAL PASTE CONTROVERSY (DELIDDING)",
-        "content": "Ivy Bridge sparked a massive controversy in the enthusiast community. Sandy Bridge used high-quality fluxless solder to attach the processor die to the metal heat spreader. For Ivy Bridge, Intel switched to cheap thermal paste (TIM). Because of the poor heat transfer, Ivy Bridge ran 10-20°C hotter than Sandy Bridge, ruining its overclocking potential. \n\nThis sparked the 'delidding' era, where enthusiasts literally sliced the metal lids off their processors with razor blades to replace Intel's cheap paste with liquid metal, dropping temperatures instantly."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
+        "title": "LEGACY",
         "content": "Ivy Bridge proved that 3D transistors worked at scale; every advanced processor in your phone and PC today uses FinFET technology. It also represented 'Peak LGA 1155' — it was the last time Intel allowed a socket to survive across two major generations, making it one of the most upgrade-friendly platforms in PC history."
       }
     ]
   },
   {
-    "id": "haswell-4th-gen-core",
-    "title": "Intel Haswell — 4th Gen Core (i3 / i5 / i7)",
-    "year": "2013",
+    "id": "core-i7-i5-4th-gen-haswell-2014",
+    "title": "4th Gen Intel Core i7 / i5 (Haswell)",
+    "year": "2014",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.4 GHz – 4.0 GHz",
+    "clockSpeed": "3.5 GHz – 4.0 GHz",
     "transistors": "1.4 Billion",
     "formFactor": "LGA 1150",
     "colors": {
-      "from": "from-orange-400",
-      "via": "via-red-600",
-      "to": "to-red-900"
+      "from": "from-red-400",
+      "via": "via-orange-500",
+      "to": "to-amber-900"
     },
     "previousModel": "Ivy Bridge",
-    "performanceMultiplier": 1.1,
+    "performanceMultiplier": 1.15,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Haswell microarchitecture (2013) was a ground-up redesign focused on three goals: drastically improved power efficiency for laptops, enhanced integrated graphics, and new instruction sets (AVX2). Haswell introduced the Fully Integrated Voltage Regulator (FIVR), which simplified motherboards but made the CPU run much hotter. While desktop performance improved only modestly, mobile Haswell delivered massive battery life improvements, enabling the 'Ultrabook' vision."
+        "content": "The Intel Haswell (2013) was a ground-up redesign focused on drastically improving power efficiency for laptops, enhancing integrated graphics, and adding new instruction sets like AVX2. While desktop performance improved only modestly, mobile Haswell delivered massive battery life improvements, enabling the 'Ultrabook' vision."
       },
       {
-        "title": "FULLY INTEGRATED VOLTAGE REGULATOR (FIVR)",
-        "content": "Haswell moved the voltage regulation from the motherboard directly onto the CPU package. This allowed for incredibly fine, fast voltage control. As a result, laptop battery life doubled overnight — the 2013 MacBook Air famously jumped from 5 hours of battery life to 12 hours. However, for desktop users, moving the voltage regulators onto the CPU added intense heat, further frustrating overclockers."
+        "title": "FIVR & DESKTOP HEAT",
+        "content": "Haswell introduced the Fully Integrated Voltage Regulator (FIVR), moving voltage control from the motherboard directly onto the CPU package. While this doubled laptop battery life overnight, it added intense heat to desktop chips. Intel later released a 'Devil's Canyon' refresh (like the i7-4790K) to apologize to frustrated overclockers."
       },
       {
-        "title": "IRIS PRO & eDRAM",
-        "content": "Haswell introduced 'Iris Pro' graphics. To solve the memory bandwidth bottleneck that plagues integrated graphics, Intel literally glued a massive 128MB eDRAM cache chip right next to the CPU. For the first time, a laptop without a discrete graphics card could play modern 3D games like Battlefield 4 at acceptable framerates."
-      },
-      {
-        "title": "DEVIL'S CANYON & THE PENTIUM G3258",
-        "content": "Intel eventually had to apologize to the desktop community for Haswell's heat issues. They released a mid-cycle refresh codenamed 'Devil's Canyon' (like the i7-4790K), featuring slightly better thermal paste and power delivery. More famously, they released the $75 Pentium G3258 Anniversary Edition — a fully unlocked budget chip that gamers could easily overclock to 4.5 GHz, creating a legendary budget gaming CPU."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
+        "title": "LEGACY",
         "content": "Haswell's AVX2 instruction set is still heavily used today for AI and video encoding. However, Haswell is most famous for marking the beginning of Intel's manufacturing struggles. Because the next shrink to 14nm was heavily delayed, Haswell stayed on the market for over two years, breaking Intel's legendary 'tick-tock' release rhythm permanently."
       }
     ]
   },
   {
-    "id": "silvermont-atom",
-    "title": "Intel Silvermont — Atom / Celeron / Pentium",
-    "year": "2013",
+    "id": "atom-celeron-pentium-silvermont-2015",
+    "title": "Intel Atom / Celeron / Pentium (Silvermont)",
+    "year": "2015",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "1.33 GHz – 2.41 GHz",
+    "clockSpeed": "1.33 GHz – 2.70 GHz (burst)",
     "transistors": "1.2 Billion",
-    "formFactor": "BGA 1170 / BGA 1380 (Soldered)",
+    "formFactor": "BGA (soldered)",
     "colors": {
-      "from": "from-cyan-400",
-      "via": "via-teal-600",
-      "to": "to-green-900"
+      "from": "from-teal-400",
+      "via": "via-cyan-500",
+      "to": "to-blue-900"
     },
     "previousModel": "Bonnell Atom",
     "performanceMultiplier": 2.5,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Silvermont microarchitecture (2013) was the first ground-up redesign of Intel's low-power Atom core since 2008. Moving from the ancient in-order execution of the original Atom to a modern 'out-of-order' design, Silvermont delivered a massive 2x to 3x performance leap while drawing only 2 to 4 watts. It powered the Chromebook explosion and millions of cheap Windows tablets, but arrived too late to save Intel's smartphone ambitions."
+        "content": "The Intel Silvermont (2013) was the first ground-up redesign of Intel's low-power Atom core since 2008. Moving from the ancient in-order execution to a modern 'out-of-order' design, Silvermont delivered a massive 2x to 3x performance leap while drawing only 2 to 4 watts. It powered the Chromebook explosion and millions of cheap Windows tablets."
       },
       {
-        "title": "THE OUT-OF-ORDER REVOLUTION",
-        "content": "The original Atom processors executed code exactly as the compiler ordered it, which was incredibly power-efficient but terribly slow. Because Intel now had the highly efficient 22nm FinFET manufacturing process, they could finally afford the power budget to make Atom 'out-of-order' (where the CPU dynamically reorders instructions to keep itself busy). This made Silvermont the first Atom that felt fast."
+        "title": "THE CHROMEBOOK REVOLUTION",
+        "content": "Silvermont (under the 'Bay Trail' platform name) became the engine for the Google Chromebook revolution in education. Devices like the Acer C720 were lightning fast on Chrome OS and offered 10+ hours of battery life, making x86 highly competitive with ARM in the low-end market."
       },
       {
-        "title": "THE CHROMEBOOK & TABLET BOOM",
-        "content": "Silvermont (under the 'Bay Trail' platform name) powered a massive wave of $199 Windows 8.1 tablets and ultra-cheap laptops. More importantly, it became the engine for the Google Chromebook revolution in education. Devices like the Acer C720 were lightning fast on Chrome OS and offered 10+ hours of battery life, making x86 highly competitive with ARM in the low-end market."
-      },
-      {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
-        "content": "Silvermont was the Atom that Intel should have built in 2008. While it became the gold standard for NAS enclosures, budget laptops, and embedded systems, it couldn't break Qualcomm and Apple's iron grip on the smartphone market. Intel spent billions trying to put Silvermont into phones (like the Asus ZenFone 2) before finally surrendering and exiting the smartphone market entirely."
+        "title": "LEGACY",
+        "content": "While it became the gold standard for NAS enclosures, budget laptops, and embedded systems, it couldn't break Qualcomm and Apple's iron grip on the smartphone market. Intel spent billions trying to put Silvermont into phones (like the Asus ZenFone 2) before finally surrendering and exiting the smartphone market entirely."
       }
     ]
   },
   {
-    "id": "broadwell-5th-gen-core",
-    "title": "Intel Broadwell — 5th Gen Core (i3 / i5 / i7)",
-    "year": "2015",
+    "id": "core-i7-i5-5th-gen-broadwell-2016",
+    "title": "5th Gen Intel Core i7 / i5 (Broadwell)",
+    "year": "2016",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.2 GHz – 3.8 GHz",
+    "clockSpeed": "3.1 GHz – 3.7 GHz",
     "transistors": "1.9 Billion",
-    "formFactor": "LGA 1150",
+    "formFactor": "LGA 1150 / BGA",
     "colors": {
       "from": "from-purple-400",
-      "via": "via-indigo-600",
-      "to": "to-indigo-900"
+      "via": "via-violet-500",
+      "to": "to-purple-900"
     },
     "previousModel": "Haswell",
     "performanceMultiplier": 1.1,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Broadwell microarchitecture was supposed to be the 14-nanometer shrink of Haswell, launching in 2014. Instead, it became one of Intel's most notorious delays. Plagued by massive manufacturing defects at 14nm, Broadwell's desktop launch was delayed by over 18 months. By the time the desktop chips arrived in June 2015, they were obsolete within two months. However, the mobile versions were highly successful, powering devices like the 2015 MacBook Pro."
-      },
-      {
-        "title": "THE 14NM DISASTER",
-        "content": "Broadwell marked the catastrophic breakdown of Intel's legendary manufacturing dominance. Shrinking the 3D FinFET transistors to 14nm proved incredibly difficult. Yields (usable chips per silicon wafer) were terrible. This delay embarrassed Intel executives and completely shattered the 'tick-tock' release cadence that had defined the PC industry for a decade."
+        "content": "The Intel Broadwell was supposed to be the 14-nanometer shrink of Haswell. Instead, it became one of Intel's most notorious delays. Plagued by massive manufacturing defects at 14nm, Broadwell's desktop launch was delayed by over 18 months. By the time the desktop chips arrived in June 2015, they were obsolete within two months. However, the mobile versions were highly successful."
       },
       {
         "title": "THE DESKTOP 'GHOST' GENERATION",
-        "content": "Because the next-generation architecture (Skylake) was already finished, Intel only released a grand total of three Broadwell desktop models to honor their roadmap. The flagship i7-5775C sat on store shelves for just two months before being replaced. Today, it is highly sought after by collectors because it is incredibly rare and fits into older Haswell motherboards."
+        "content": "Because the next-generation architecture (Skylake) was already finished, Intel only released a grand total of three Broadwell desktop models to honor their roadmap. The flagship i7-5775C sat on store shelves for just two months before being replaced. Today, it is highly sought after by collectors because it is incredibly rare."
       },
       {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
+        "title": "LEGACY",
         "content": "Despite its botched launch, the rare Broadwell desktop chips featured Iris Pro 6200 graphics with a massive 128MB eDRAM cache, making them the fastest integrated graphics Intel would produce for years. Historically, Broadwell is remembered as the chip that inaugurated the '14nm Forever' era, kicking off a half-decade of manufacturing stagnation at Intel."
       }
     ]
   },
   {
-    "id": "skylake-6th-gen-core",
-    "title": "Intel Skylake — 6th Gen Core (i3 / i5 / i7)",
-    "year": "2015",
+    "id": "core-i7-i5-6th-gen-skylake-2017",
+    "title": "6th Gen Intel Core i7 / i5 (Skylake)",
+    "year": "2017",
     "architecture": "64-bit (x86-64, Intel 64)",
-    "clockSpeed": "2.3 GHz – 4.2 GHz",
+    "clockSpeed": "3.5 GHz – 4.2 GHz",
     "transistors": "1.75 Billion",
     "formFactor": "LGA 1151",
     "colors": {
       "from": "from-blue-400",
       "via": "via-sky-500",
-      "to": "to-blue-800"
+      "to": "to-indigo-900"
     },
     "previousModel": "Broadwell",
-    "performanceMultiplier": 1.1,
+    "performanceMultiplier": 1.15,
     "description": [
       {
         "title": "OVERVIEW",
-        "content": "The Intel Skylake microarchitecture (August 2015) was Intel's redemption after the Broadwell delays. It brought a massive platform overhaul: a new socket (LGA 1151), the mainstream introduction of DDR4 memory, integrated Thunderbolt 3, and hardware H.265 video encoding. Skylake became one of the most beloved and long-lived Intel platforms, setting the standard for high-end gaming for years."
+        "content": "The Intel Skylake (August 2015) was Intel's redemption after the Broadwell delays. It brought a massive platform overhaul: a new socket (LGA 1151), the mainstream introduction of DDR4 memory, integrated Thunderbolt 3, and hardware H.265 video encoding. Skylake became one of the most beloved and long-lived Intel platforms, setting the standard for high-end gaming for years."
       },
       {
         "title": "ARCHITECTURAL ROLLBACKS",
@@ -728,10 +644,9 @@
         "content": "Skylake holds a special place in software history as the absolute cutoff point for official Windows 7 support. Microsoft and Intel drew a hard line in the sand, explicitly optimizing Skylake's power management and hardware features strictly for Windows 10, forcing millions of enterprise and enthusiast users to finally upgrade their operating systems."
       },
       {
-        "title": "LEGACY & MUSEUM SIGNIFICANCE",
+        "title": "LEGACY",
         "content": "Skylake is infamous as the 'Forever Architecture.' Because Intel subsequently failed to manufacture 10nm chips for nearly five years, they were forced to re-use the Skylake core design over, and over, and over again. The 7th, 8th, 9th, and 10th generation Intel Core processors were all essentially just heavily refined 14nm Skylake chips with more cores bolted onto them."
       }
     ]
   }
-
 ]
