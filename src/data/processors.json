@@ -1,5 +1,39 @@
 [
   {
+    "id": "intel-pentium-ii",
+    "title": "Intel Pentium II",
+    "year": "1997",
+    "architecture": "32-bit (x86)",
+    "clockSpeed": "233 MHz - 450 MHz",
+    "transistors": "7.5 Million",
+    "formFactor": "Slot 1 Cartridge",
+    "colors": {
+      "from": "from-cyan-400",
+      "via": "via-blue-600",
+      "to": "to-slate-900"
+    },
+    "previousModel": "Pentium MMX",
+    "performanceMultiplier": 1.5,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Intel Pentium II (1997) represented a massive physical shift in processor design. Abandoning the traditional square socket, it was packaged in a massive plastic enclosure known as the Single Edge Contact Cartridge (SECC) or 'Slot 1'. It combined the high-performance P6 architecture of the server-grade Pentium Pro with the multimedia (MMX) capabilities of the consumer Pentium line."
+      },
+      {
+        "title": "THE SECRETS OF THE CARTRIDGE",
+        "content": "Why did it look like a Nintendo cartridge? In 1997, L2 cache memory was crucial for performance, but Intel couldn't yet manufacture the cache directly onto the same microscopic silicon die as the CPU. The plastic cartridge housed a mini-circuit board that contained both the CPU chip and separate high-speed cache chips sitting right next to it.\n\nFurthermore, the proprietary Slot 1 interface was a brilliant business move: it allowed Intel to patent the connection, effectively locking rival processor makers like AMD out of producing compatible motherboards."
+      },
+      {
+        "title": "HISTORICAL CONTEXT",
+        "content": "The Pentium II era (1997-1998) was the golden age of Windows 95 and the birth of Windows 98. 3D hardware acceleration was just becoming standard with legendary graphics cards like the 3dfx Voodoo. The Pentium II was the ultimate status symbol for PC gamers wanting to experience the groundbreaking 3D graphics of Quake II and Half-Life."
+      },
+      {
+        "title": "LEGACY & MUSEUM SIGNIFICANCE",
+        "content": "The Pentium II remains one of the most visually distinct processors ever manufactured. The massive black cartridge with its holographic logo is instantly recognizable to anyone who built PCs in the late 90s. It proved that Intel was willing to radically alter the physical form factor of the PC to achieve its performance goals."
+      }
+    ]
+  },
+  {
     "id": "pentium-iii-coppermine-2000",
     "title": "Intel Pentium III (Coppermine)",
     "year": "2000",
@@ -346,35 +380,35 @@
     ]
   },
   {
-  "id": "core-i3-1st-gen-nehalem-clarkdale-2008",
-  "title": "1st Gen Intel Core i3 (Nehalem Clarkdale)",
-  "year": "2008",
-  "architecture": "64-bit (x86-64, Intel 64)",
-  "clockSpeed": "2.93 GHz – 3.33 GHz",
-  "transistors": "559 Million",
-  "formFactor": "LGA 1156",
-  "colors": {
-    "from": "from-yellow-400",
-    "via": "via-amber-500",
-    "to": "to-yellow-900"
+    "id": "core-i3-1st-gen-nehalem-clarkdale-2008",
+    "title": "1st Gen Intel Core i3 (Nehalem Clarkdale)",
+    "year": "2008",
+    "architecture": "64-bit (x86-64, Intel 64)",
+    "clockSpeed": "2.93 GHz – 3.33 GHz",
+    "transistors": "559 Million",
+    "formFactor": "LGA 1156",
+    "colors": {
+      "from": "from-yellow-400",
+      "via": "via-amber-500",
+      "to": "to-yellow-900"
+    },
+    "previousModel": "Core 2 Duo Wolfdale",
+    "performanceMultiplier": 1.2,
+    "description": [
+      {
+        "title": "OVERVIEW",
+        "content": "The Intel Core i3-530 (2010) was the first Core i3 processor. Based on the Westmere (32nm) shrink of Nehalem, Clarkdale was unique: it used two dies in one package (32nm CPU + 45nm GPU). The i3 had Hyper-Threading (2 cores/4 threads) but no Turbo Boost. It became the budget gaming hero, offering excellent performance for under $150."
+      },
+      {
+        "title": "TWO-DIE PACKAGE",
+        "content": "Under the heat spreader sat a 32nm CPU die and an older 45nm GPU die. This physical separation is a museum curiosity today, showing Intel's transitional step before fully integrating graphics directly onto the CPU die."
+      },
+      {
+        "title": "LEGACY",
+        "content": "The Clarkdale i3 proved that dual-core with Hyper-Threading was enough for gaming in 2010-2012. It was the budget hero of its day, offering i5-like gaming performance for $100 less when paired with a dedicated graphics card."
+      }
+    ]
   },
-  "previousModel": "Core 2 Duo Wolfdale",
-  "performanceMultiplier": 1.2,
-  "description": [
-    {
-      "title": "OVERVIEW",
-      "content": "The Intel Core i3-530 (2010) was the first Core i3 processor. Based on the Westmere (32nm) shrink of Nehalem, Clarkdale was unique: it used two dies in one package (32nm CPU + 45nm GPU). The i3 had Hyper-Threading (2 cores/4 threads) but no Turbo Boost. It became the budget gaming hero, offering excellent performance for under $150."
-    },
-    {
-      "title": "TWO-DIE PACKAGE",
-      "content": "Under the heat spreader sat a 32nm CPU die and an older 45nm GPU die. This physical separation is a museum curiosity today, showing Intel's transitional step before fully integrating graphics directly onto the CPU die."
-    },
-    {
-      "title": "LEGACY",
-      "content": "The Clarkdale i3 proved that dual-core with Hyper-Threading was enough for gaming in 2010-2012. It was the budget hero of its day, offering i5-like gaming performance for $100 less when paired with a dedicated graphics card."
-    }
-  ]
-},
   {
     "id": "intel-atom-bonnell-2010",
     "title": "Intel Atom (Bonnell)",
