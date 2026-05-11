@@ -44,11 +44,11 @@ const ProcessorView = ({activeProcessor, processors}) => {
 
     return (
         <div
-            className="relative bg-black text-black overflow-scroll h-screen w-full snap-y snap-mandatory"
+            className="relative bg-black text-black w-full h-[100dvh] overflow-y-auto overflow-x-hidden snap-y snap-proximity scroll-smooth"
             ref={scrollContainer}>
             <motion.div
-                style ={{opacity:heroOpacity}}
-                className={"fixed top-0 left-0 w-full z-50 backdrop-blur-xl py-4 px-6 pointer-events-none"}>
+                style={{opacity: heroOpacity}}
+                className={"absolute top-0 left-0 w-full z-50 py-4 px-6 pointer-events-none"}>
                 <div className="max-w-7xl mx-auto flex items-center gap-3">
                     <span className="text-xs font-bold text-zinc-400 drop-shadow-md ">{minYear}</span>
 
@@ -83,8 +83,8 @@ const ProcessorView = ({activeProcessor, processors}) => {
                     <span className="text-xs font-bold text-zinc-400">{maxYear}</span>
                 </div>
             </motion.div>
-            <section>
-                <div className="relative flex justify-center">
+            <section className="relative h-[100dvh] w-full z-0 snap-start">
+                <div className="sticky h-[100dvh] top-0 w-full flex items-center justify-center overflow-hidden">
                     <motion.div
                         className="fixed pointer-events-none min-h-screen w-full z-0 top-0 left-0 object-cover flex items-center justify-center"
                         style={{opacity: heroOpacity, scale: heroScale, y: heroY}}>
@@ -97,66 +97,64 @@ const ProcessorView = ({activeProcessor, processors}) => {
                         </motion.div>
                     </motion.div>
                 </div>
-                <div className="max-w-4xl text-center flex flex-col justify-center items-center">
-                    <h2 className="text-xl tracking-widest uppercase font-semibold"> Summary </h2>
+            </section>
+
+            <section className="relative z-10 h-[120vh] bg-zinc-100 w-full flex flex-col p-2 snap-start ">
+                <div className="sticky top-0 h-[100dvh] w-full  flex flex-col ">
+                    <div>
+                        <motion.div
+                            initial={{opacity: 0, y: 20}}
+                            whileInView={{opacity: 1, y: 0}}
+                            viewport={{once: true}}
+                            className="text-sm md:text-base font-bold tracking-[0.2em] uppercase items-center mb-2">
+                            Tech Specs
+                        </motion.div>
+                        <motion.div
+                            initial={{opacity: 0, y: 20}}
+                            whileInView={{opacity: 1, y: 0}}
+                            viewport={{once: true}}
+                            transition={{delay: 0.1}}
+                            className={`text-4xl md:text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r ${activeProcessor.colors.from} ${activeProcessor.colors.via} ${activeProcessor.colors.to}`}>
+                            Power by the Numbers.
+                        </motion.div>
+                    </div>
+                    <motion.div
+                        className="w-full min-h-0 flex-1 grid grid-cols-2 grid-rows-5 content-start place-content-center relative p-1 gap-2 overflow-auto md:grid md:grid-cols-2 md:grid-rows-4 "
+                        variants={bentoGrid}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{once: false}}>
+                        <BentoCard title="Released Year" content={activeProcessor.year}
+                                   className="col-span-1"/>
+                        <BentoCard title="Architecture" content={
+                            <div>
+                                <h1 className="text-lg">
+                                    {activeProcessor.architecture}
+                                </h1>
+                            </div>}
+                                   className="col-span-1"/>
+                        <BentoCard title="Clock Speed" content={activeProcessor.clockSpeed}
+                                   className="col-span-2"/>
+                        <BentoCard title="Form Factor" content={activeProcessor.formFactor}
+                                   className="col-span-2"/>
+                        <BentoCard title="Transistor Count" content={activeProcessor.transistors}
+                                   className="col-span-1"/>
+                        <BentoCard title="Previous Model" content={activeProcessor.previousModel}
+                                   className="col-span-1"/>
+                        <BentoCard title="Performance Increase" className="w-full col-span-2" content={
+                            <div className="">
+                                {`x${activeProcessor.performanceMultiplier}`}
+                            </div>
+                        }
+                        />
+                    </motion.div>
                 </div>
             </section>
-            <section className="h-screen snap-center">
 
-            </section>
-
-            <section className="relative z-10 h-screen snap-center bg-zinc-100 flex flex-col p-2 pt-6 ">
-                <div>
-                    <motion.div
-                        initial={{opacity: 0, y: 20}}
-                        whileInView={{opacity: 1, y: 0}}
-                        viewport={{once: true}}
-                        className="text-sm md:text-base font-bold tracking-[0.2em] uppercase items-center mb-8">
-                        Tech Specs
-                    </motion.div>
-                    <motion.div
-                        initial={{opacity: 0, y: 20}}
-                        whileInView={{opacity: 1, y: 0}}
-                        viewport={{once: true}}
-                        transition={{delay: 0.1}}
-                        className={`text-4xl md:text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r ${activeProcessor.colors.from} ${activeProcessor.colors.via} ${activeProcessor.colors.to}`}>
-                        Power by the Numbers.
-                    </motion.div>
-                </div>
-                <motion.div
-                    className="w-full min-h-0 flex-1 grid grid-cols-2 grid-rows-5 content-start place-content-center relative p-1 gap-2 overflow-auto md:grid md:grid-cols-2 md:grid-rows-4 "
-                    variants={bentoGrid}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{once: false}}>
-                    <BentoCard title="Released Year" content={activeProcessor.year}
-                               className="col-span-1"/>
-                    <BentoCard title="Architecture" content={
-                        <div>
-                            <h1 className="text-lg">
-                                {activeProcessor.architecture}
-                            </h1>
-                        </div>}
-                               className="col-span-1"/>
-                    <BentoCard title="Clock Speed" content={activeProcessor.clockSpeed}
-                               className="col-span-2"/>
-                    <BentoCard title="Form Factor" content={activeProcessor.formFactor}
-                               className="col-span-2"/>
-                    <BentoCard title="Transistor Count" content={activeProcessor.transistors}
-                               className="col-span-1"/>
-                    <BentoCard title="Previous Model" content={activeProcessor.previousModel}
-                               className="col-span-1"/>
-                    <BentoCard title="Performance Increase" className="w-full col-span-2" content={
-                        <div className="">
-                            {`x${activeProcessor.performanceMultiplier}`}
-                        </div>
-                    }
-                    />
-                </motion.div>
-            </section>
-
-            <section className="relative z-10 w-full min-h-screen bg-zinc-50 snap-start">
-                <div className="max-w-3xl mx-auto px-6 space-y-20"></div>
+            <section className="relative z-20 w-full min-h-screen bg-zinc-100 snap-proximity">
+                <div  className="h-[1px] w-full invisible snap-start snap-always"/>
+                <div className="max-w-3xl mx-auto px-6 relative" >
+                    <div className="top-0 w-full ">
                 <motion.h2
                     initial={{opacity: 0, y: 20}}
                     whileInView={{opacity: 1, y: 0}}
@@ -164,6 +162,7 @@ const ProcessorView = ({activeProcessor, processors}) => {
                     className={`text-4xl md:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-linear-to-r ${activeProcessor.colors.from} ${activeProcessor.colors.via} ${activeProcessor.colors.to}`}>
                     Story Behind the Silicon.
                 </motion.h2>
+                    </div>
                 {
                     activeProcessor.description.map(section => {
                         return (
@@ -178,6 +177,7 @@ const ProcessorView = ({activeProcessor, processors}) => {
                         )
                     })
                 }
+                </div>
             </section>
 
 
