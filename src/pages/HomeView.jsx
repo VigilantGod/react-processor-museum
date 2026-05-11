@@ -91,7 +91,7 @@ const HomePage = ({setSearchParams}) => {
                                             setSearchParams({"processorId": processor.id});
                                         }}>
                                         <motion.div className="w-full aspect-[4/3] flex items-center justify-center mb-8 transition-transform duration-500 group-hover:scale-110">
-                                            <img src={`${processor.id}.png`}
+                                            <img src={`/public/${processor.id}.png`}
                                                  className="max-h-56 object-contain drop-shadow-2xl"
                                                  alt={""}/>
                                         </motion.div>
