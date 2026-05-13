@@ -99,14 +99,14 @@ const ProcessorView = ({activeProcessor, processors}) => {
                 </div>
             </section>
 
-            <section className="relative z-10 h-[120vh] bg-zinc-100 w-full flex flex-col p-2 snap-start ">
-                <div className="sticky top-0 h-[100dvh] w-full  flex flex-col ">
+            <section className="relative z-10 h-[120vh] bg-zinc-100 w-full flex flex-col p-2 snap-start  items-center">
+                <div className="sticky top-0 h-[100dvh] w-full  flex flex-col max-w-4xl ">
                     <div>
                         <motion.div
                             initial={{opacity: 0, y: 20}}
                             whileInView={{opacity: 1, y: 0}}
                             viewport={{once: true}}
-                            className="text-sm md:text-base font-bold tracking-[0.2em] uppercase items-center mb-2">
+                            className="text-sm md:text-base font-bold tracking-[0.2em] uppercase items-center mb-2 md:mb-2">
                             Tech Specs
                         </motion.div>
                         <motion.div
@@ -118,30 +118,32 @@ const ProcessorView = ({activeProcessor, processors}) => {
                             Power by the Numbers.
                         </motion.div>
                     </div>
+
                     <motion.div
-                        className="w-full min-h-0 flex-1 grid grid-cols-2 grid-rows-5 content-start place-content-center relative p-1 gap-2 overflow-auto md:grid md:grid-cols-2 md:grid-rows-4 "
+                        className="w-full min-h-0 flex-1 grid grid-cols-2 grid-rows-5 content-start place-content-center relative p-1 gap-2 overflow-auto md:overflow-hidden
+                                md:grid-cols-4 md:grid-rows-4 "
                         variants={bentoGrid}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{once: false}}>
                         <BentoCard title="Released Year" content={activeProcessor.year}
-                                   className="col-span-1"/>
+                                   className="col-span-1 md:col-span-2 md:col-start-1"/>
                         <BentoCard title="Architecture" content={
                             <div>
-                                <h1 className="text-lg">
+                                <h1 className="text-xl md:text-4xl">
                                     {activeProcessor.architecture}
                                 </h1>
                             </div>}
-                                   className="col-span-1"/>
+                                   className="col-span-1 md:col-span-2 md:col-start-3 md:row-start-1 md:row-end-3"/>
                         <BentoCard title="Clock Speed" content={activeProcessor.clockSpeed}
-                                   className="col-span-2"/>
+                                   className="col-span-2 md:col-start-1 md:row-start-2 md:row-end-4"/>
                         <BentoCard title="Form Factor" content={activeProcessor.formFactor}
-                                   className="col-span-2"/>
+                                   className="col-span-2 "/>
                         <BentoCard title="Transistor Count" content={activeProcessor.transistors}
                                    className="col-span-1"/>
                         <BentoCard title="Previous Model" content={activeProcessor.previousModel}
-                                   className="col-span-1"/>
-                        <BentoCard title="Performance Increase" className="w-full col-span-2" content={
+                                   className="col-span-1 md:col-span-2"/>
+                        <BentoCard title="Performance Increase" className="w-full col-span-2 md:col-span-1" content={
                             <div className="">
                                 {`x${activeProcessor.performanceMultiplier}`}
                             </div>

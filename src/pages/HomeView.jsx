@@ -20,14 +20,13 @@ const HomePage = ({setSearchParams}) => {
     const isHeroInView = useInView(heroRef, {margin: "-100px"});
 
     useEffect(() => {
-        if (videoRef.current) {
-            if (videoRef.current) {
+        const video = videoRef.current;
+        if (video) {
                 if (isHeroInView) {
-                    videoRef.current.play();
+                    video.play().catch((err) => {console.log("Playback Blocked")});
                 } else {
-                    videoRef.current.pause();
+                    video.pause();
                 }
-            }
         }
     }, [isHeroInView]);
     return (
@@ -67,7 +66,7 @@ const HomePage = ({setSearchParams}) => {
 
                     <section className="relative z-10 min-h-screen bg-zinc-100 pb-32 snap-start">
                         <div className="">
-                            <h1 className="text-sm font-bold tracking-[0.2em] px-4 py-2 text-center">Faculty of Computing Archive</h1>
+                            <h1 className="text-sm md:text-md font-bold tracking-[0.2em] px-4 py-2 text-center">Faculty of Computing Archive</h1>
                         </div>
                         <div className="flex">
                             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-zinc-900">The artifacts of modern computing.</h2>
@@ -81,9 +80,10 @@ const HomePage = ({setSearchParams}) => {
                                     <motion.div
                                         initial={{opacity:0,y:40}}
                                         whileInView={{opacity:1,y:0}}
-                                        whileTap={{scale: 0.85, y: 1}}
-                                        transition={{type: "spring", stiffness: 300, damping: 20,duration:0.6}}
-                                        viewport={{once:false}}
+                                        whileHover={{y:-10}}
+                                        whileTap={{scale: 0.95}}
+                                        transition={{type: "spring", stiffness: 300, damping: 25,duration:0.6}}
+                                        viewport={{once:false,margin:"-50px"}}
                                         key={processor.id}
                                         className="group cursor-pointer flex flex-col items-center text-center"
                                         onClick={() => {
