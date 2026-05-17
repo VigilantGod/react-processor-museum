@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import {motion, useInView, useScroll, useTransform, AnimatePresence} from "motion/react";
 import processors from "../data/processors.json";
 import backgroundVideo from "../assets/landing-page-video.mp4";
+import videoThumbnail from "../assets/VidThumbNail.png"
 import {useEffect, useRef} from "react";
 import type {SetURLSearchParams} from "react-router-dom";
 import type {MotionValue} from "motion";
@@ -10,29 +11,31 @@ interface HomePageProps {
     setSearchParams: SetURLSearchParams;
 }
 
-const HomePage = ({setSearchParams}:HomePageProps) => {
+const HomePage = ({setSearchParams}: HomePageProps) => {
 
     const scrollContainer = useRef<HTMLDivElement>(null);
 
     const {scrollY} = useScroll({container: scrollContainer});
 
-    const heroOpacity:MotionValue<number> = useTransform(scrollY, [0, 300], [1, 0]);
-    const heroScale:MotionValue<number> = useTransform(scrollY, [0, 300], [1, 0.85]);
-    const heroY:MotionValue<number> = useTransform(scrollY, [0, 300], [0, -50]);
+    const heroOpacity: MotionValue<number> = useTransform(scrollY, [0, 300], [1, 0]);
+    const heroScale: MotionValue<number> = useTransform(scrollY, [0, 300], [1, 0.85]);
+    const heroY: MotionValue<number> = useTransform(scrollY, [0, 300], [0, -50]);
 
     const videoRef = useRef<HTMLVideoElement>(null);
     const heroRef = useRef<HTMLElement>(null);
 
-    const isHeroInView:boolean = useInView(heroRef, {margin: "-100px"});
+    const isHeroInView: boolean = useInView(heroRef, {margin: "-100px"});
 
     useEffect(() => {
         const video = videoRef.current;
         if (video) {
-                if (isHeroInView) {
-                    video.play().catch((err) => {console.log("Playback Blocked")});
-                } else {
-                    video.pause();
-                }
+            if (isHeroInView) {
+                video.play().catch((err) => {
+                    console.log("Playback Blocked")
+                });
+            } else {
+                video.pause();
+            }
         }
     }, [isHeroInView]);
     return (
@@ -44,15 +47,17 @@ const HomePage = ({setSearchParams}:HomePageProps) => {
                     <section className="h-screen snap-center">
                         <section>
                             <div className="relative">
-                                <video
-                                    ref={videoRef}
-                                    autoPlay
-                                    loop
-                                    muted
-                                    playsInline
-                                    className="fixed top-0 left-0 w-full h-screen object-cover -z-10">
-                                    <source src={backgroundVideo} type="video/mp4"/>
-                                </video>
+                                <div className="fixed top-0 left-0 w-full h-screen bg-black/50 -z-10"></div>
+                                    <video
+                                        ref={videoRef}
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        poster={videoThumbnail}
+                                        className="fixed top-0 left-0 w-full h-screen object-cover -z-20">
+                                        <source src={backgroundVideo} type="video/mp4"/>
+                                    </video>
                             </div>
                             <section
                                 ref={heroRef}
@@ -72,10 +77,12 @@ const HomePage = ({setSearchParams}:HomePageProps) => {
 
                     <section className="relative z-10 min-h-screen bg-zinc-100 pb-32 snap-start">
                         <div className="">
-                            <h1 className="text-sm md:text-md font-bold tracking-[0.2em] px-4 py-2 text-center">Faculty of Computing Archive</h1>
+                            <h1 className="text-sm md:text-md font-bold tracking-[0.2em] px-4 py-2 text-center">Faculty
+                                of Computing Archive</h1>
                         </div>
                         <div className="flex">
-                            <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-zinc-900">The artifacts of modern computing.</h2>
+                            <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-zinc-900">The artifacts of
+                                modern computing.</h2>
 
                         </div>
                         <div
@@ -84,26 +91,28 @@ const HomePage = ({setSearchParams}:HomePageProps) => {
                             {
                                 processors.map((processor) => (
                                     <motion.div
-                                        initial={{opacity:0,y:40}}
-                                        whileInView={{opacity:1,y:0}}
-                                        whileHover={{y:-10}}
+                                        initial={{opacity: 0, y: 40}}
+                                        whileInView={{opacity: 1, y: 0}}
+                                        whileHover={{y: -10}}
                                         whileTap={{scale: 0.95}}
-                                        transition={{type: "spring", stiffness: 300, damping: 25,duration:0.6}}
-                                        viewport={{once:false,margin:"-50px"}}
+                                        transition={{type: "spring", stiffness: 300, damping: 25, duration: 0.6}}
+                                        viewport={{once: false, margin: "-50px"}}
                                         key={processor.id}
                                         className="group cursor-pointer flex flex-col items-center text-center"
                                         onClick={() => {
 
                                             setSearchParams({"processorId": processor.id});
                                         }}>
-                                        <motion.div className="w-full aspect-[4/3] flex items-center justify-center mb-8 transition-transform duration-500 group-hover:scale-110">
+                                        <motion.div
+                                            className="w-full aspect-[4/3] flex items-center justify-center mb-8 transition-transform duration-500 group-hover:scale-110">
                                             <img src={`${processor.id}.png`}
                                                  className="max-h-56 object-contain drop-shadow-2xl"
                                                  alt={""}/>
                                         </motion.div>
 
                                         <p className="text-sm font-bold tracking-widest text-zinc-400">{processor.year}</p>
-                                        <div className={`h-1 w-12 mt-6 rounded-full bg-linear-to-r ${processor.colors.from} ${processor.colors.via} ${processor.colors.to}`} />
+                                        <div
+                                            className={`h-1 w-12 mt-6 rounded-full bg-linear-to-r ${processor.colors.from} ${processor.colors.via} ${processor.colors.to}`}/>
                                         <h1 className="text-2xl font-bold text-zinc-900 px-4">{processor.title}</h1>
 
 
