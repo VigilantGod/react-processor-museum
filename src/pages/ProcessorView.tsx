@@ -1,9 +1,16 @@
-import Hero from "../components/Hero.jsx";
+import Hero from "../components/Hero";
 import {motion, useScroll, useTransform} from "motion/react";
-import BentoCard from "../components/BentoCard.jsx";
+import BentoCard from "../components/BentoCard";
 import {useEffect, useRef} from "react";
+import type {ProcessorData} from "../App";
 
-const ProcessorView = ({activeProcessor, processors}) => {
+
+interface ProcessorPageProps {
+    activeProcessor: ProcessorData;
+    processors: ProcessorData[];
+}
+
+const ProcessorView = ({activeProcessor, processors}:ProcessorPageProps) => {
     useEffect(() => {
         window.scrollTo({
             top: 0,
@@ -12,15 +19,15 @@ const ProcessorView = ({activeProcessor, processors}) => {
         });
     }, [activeProcessor]);
 
-    const currentYear = parseInt(activeProcessor.year);
+    const currentYear:number = parseInt(activeProcessor.year);
 
-    const years = [];
+    const years:number[] = [];
     processors.map(processor => {
         years.push(parseInt(processor.year));
     })
 
-    const minYear = 1997;
-    const maxYear = 2017;
+    const minYear = Math.min(...years);
+    const maxYear = Math.max(...years);
 
     const timeLinePercentage = ((currentYear - minYear) / (maxYear - minYear)) * 100;
 

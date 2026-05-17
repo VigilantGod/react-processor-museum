@@ -1,8 +1,15 @@
 import {motion} from "motion/react";
+import type {Variants} from "motion";
 
-const BentoCard = ({className, title, content}) => {
+interface BentoCardProps {
+    className?: string;
+    title?: string;
+    content:any;
+}
 
-    const cardAnimation = {
+const BentoCard = ({className="", title, content}:BentoCardProps) => {
+
+    const cardAnimation:Variants = {
         hidden : {
             opacity: 0,
             scale:0.95

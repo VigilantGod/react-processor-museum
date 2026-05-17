@@ -1,23 +1,29 @@
-import Hero from "../components/Hero.jsx";
+import Hero from "../components/Hero";
 import {motion, useInView, useScroll, useTransform, AnimatePresence} from "motion/react";
 import processors from "../data/processors.json";
 import backgroundVideo from "../assets/landing-page-video.mp4";
 import {useEffect, useRef} from "react";
+import type {SetURLSearchParams} from "react-router-dom";
+import type {MotionValue} from "motion";
 
-const HomePage = ({setSearchParams}) => {
+interface HomePageProps {
+    setSearchParams: SetURLSearchParams;
+}
 
-    const scrollContainer = useRef(null);
+const HomePage = ({setSearchParams}:HomePageProps) => {
+
+    const scrollContainer = useRef<HTMLDivElement>(null);
 
     const {scrollY} = useScroll({container: scrollContainer});
 
-    const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
-    const heroScale = useTransform(scrollY, [0, 300], [1, 0.85]);
-    const heroY = useTransform(scrollY, [0, 300], [0, -50]);
+    const heroOpacity:MotionValue<number> = useTransform(scrollY, [0, 300], [1, 0]);
+    const heroScale:MotionValue<number> = useTransform(scrollY, [0, 300], [1, 0.85]);
+    const heroY:MotionValue<number> = useTransform(scrollY, [0, 300], [0, -50]);
 
-    const videoRef = useRef(null);
-    const heroRef = useRef(null);
+    const videoRef = useRef<HTMLVideoElement>(null);
+    const heroRef = useRef<HTMLElement>(null);
 
-    const isHeroInView = useInView(heroRef, {margin: "-100px"});
+    const isHeroInView:boolean = useInView(heroRef, {margin: "-100px"});
 
     useEffect(() => {
         const video = videoRef.current;

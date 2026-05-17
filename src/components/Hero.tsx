@@ -1,6 +1,21 @@
-const Hero = ({processor ,className}) => {
+import type {ProcessorData} from "../App.js";
 
-    const displayData = processor || {
+interface HeroProps {
+    processor?: ProcessorData;
+    className?: string;
+}
+interface DisplayData {
+    title: string;
+    colors : {
+        from: string;
+        via: string;
+        to: string;
+    }
+}
+
+const Hero = ({processor ,className}:HeroProps) => {
+
+    const displayData: DisplayData | ProcessorData = processor || {
         title: "Processor Archive: Faculty of Computing",
         colors: {
             from: "from-blue-500",

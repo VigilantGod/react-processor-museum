@@ -1,26 +1,26 @@
-# The Archives | Processor Museum
+# 🏛️ Faculty of Computing: Processor Archive
 
-A premium, interactive web experience chronicling the evolution of consumer computing silicon from 1997 to 2017. Built with an emphasis on cinematic scroll physics, mobile-first ergonomics, and an editorial "Apple-style" design language.
+An interactive, high-performance web experience archiving the history and technical specifications of modern computing processors. Built as a university project to showcase advanced modern frontend development techniques.
 
-## ✨ Features
+## ✨ Key Features
+* **Premium Editorial UI:** Inspired by high-end hardware landing pages, featuring strict typographic scales, custom letter-tracking, and a responsive Bento Grid architecture.
+* **Physics-Based Animation:** Utilizes Framer Motion for scroll-linked parallax effects, spring-based hover states, and seamless page transitions.
+* **100% Type-Safe Architecture:** Fully migrated to strict TypeScript, ensuring robust data handling, precise hook typings, and zero-crash rendering.
+* **Dynamic Routing:** Implements React Router DOM with URL Search Parameters to manage active processor states without complex global state managers.
 
-* **Cinematic Scroll Physics:** Utilizes Framer Motion for staggered entrance animations, parallax hero fading, and tactile touch feedback (`whileTap` spring physics).
-* **Glassmorphic Chronological Timeline:** A dynamic, floating timeline that mathematically calculates an artifact's historical position and visualizes it with synchronized scroll and bounce physics.
-* **Ergonomic Mobile-First Navigation:** Replaces traditional top-heavy navigation with an iOS-style floating action pill for intuitive, one-handed usability.
-* **Bento Box Tech Specs:** A responsive, grid-based data visualization layout for processor architecture and performance metrics.
-* **Zero-Computation Static Asset Routing:** Processor imagery is mapped dynamically via `public` directory ID routing, ensuring secure, hash-free deployment builds.
+## 🛠️ Tech Stack
+* **Framework:** React 18
+* **Language:** TypeScript
+* **Bundler:** Vite
+* **Styling:** Tailwind CSS v4
+* **Animation:** Framer Motion (Motion/React)
+* **Routing:** React Router DOM
 
-## 🛠 Tech Stack
+## 🚀 Local Development
 
-* **Framework:** [React 18](https://react.dev/) + [Vite](https://vitejs.dev/)
-* **Styling:** [Tailwind CSS v3](https://tailwindcss.com/)
-* **Animation Engine:** [Framer Motion](https://www.framer.com/motion/)
-* **Data Layer:** Pre-parsed JSON Architecture
+To run this project locally on your machine:
 
-## 🚀 Getting Started
-
-To run this project locally, ensure you have Node.js installed.
-
-1. **Clone the repository:**
+1. **Clone the repository**
+2. **Install dependencies:**
    ```bash
-   git clone [https://github.com/yourusername/react-processor-museum.git](https://github.com/yourusername/react-processor-museum.git)
+   npm install
